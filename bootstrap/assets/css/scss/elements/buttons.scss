@@ -1,0 +1,293 @@
+
+.btn {
+  border-width: 1px;
+  cursor: pointer;
+  line-height: normal;
+  padding: 12px 35px;
+  text-transform: capitalize;
+  //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+  transition: all 0.3s ease-in-out;
+  &:focus {
+    //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: none;
+    outline: medium none;
+  }
+  &:hover {
+    //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: none;
+    outline: medium none;
+  }
+  &.active {
+    //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: none;
+    outline: medium none;
+    &:focus {
+      //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+      box-shadow: none !important;
+    }
+  }
+  i {
+    font-size: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+    line-height: 1;
+  }
+  span {
+    vertical-align: middle;
+  }
+  &:active:focus {
+    //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: none !important;
+  }
+  + .btn {
+    margin-left: 10px;
+  }
+  &.btn-xs i {
+    font-size: 10px;
+  }
+  &.btn-sm i {
+    font-size: 12px;
+  }
+  &.btn-lg i {
+    font-size: 22px;
+  }
+}
+.btn-fill-out {
+  background-color: transparent;
+  border: 1px solid $color_radical_red_approx;
+  color: $white;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &:hover {
+    color: $color_radical_red_approx !important;
+    &:before {
+      width: 0;
+    }
+    &:after {
+      width: 0;
+    }
+  }
+}
+.btn-fill-out::before {
+  @extend %extend_1;
+}
+.btn-fill-out::after {
+  @extend %extend_1;
+  right: 0;
+  left: auto;
+}
+.btn-fill-line {
+  background-color: transparent;
+  border: 1px solid $color_mine_shaft_approx;
+  overflow: hidden;
+  position: relative;
+  color: $white !important;
+  //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+  transition: all 0.8s ease 0s;
+  z-index: 1;
+  &:before {
+    @extend %extend_2;
+  }
+  &:after {
+    @extend %extend_2;
+  }
+  &:hover {
+    color: $color_mine_shaft_approx !important;
+    &:before {
+      width: 0;
+    }
+    &:after {
+      width: 0;
+    }
+  }
+}
+.btn-fill-line::after {
+  right: 0;
+  left: auto;
+}
+.btn-border-fill {
+  border: 1px solid $color_radical_red_approx;
+  color: $color_radical_red_approx;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &:hover {
+    color: $white !important;
+    &:before {
+      width: 50%;
+    }
+    &:after {
+      width: 50%;
+    }
+  }
+}
+.btn-border-fill::before {
+  @extend %extend_3;
+}
+.btn-border-fill::after {
+  @extend %extend_3;
+  right: 0;
+  left: auto;
+}
+.btn-white {
+  background-color: transparent;
+  border: 1px solid $white;
+  color: $color_outer_space_approx !important;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &:hover {
+    color: $white !important;
+    &:before {
+      width: 0;
+    }
+    &:after {
+      width: 0;
+    }
+  }
+}
+.btn-white::before {
+  @extend %extend_4;
+}
+.btn-white::after {
+  @extend %extend_4;
+  right: 0;
+  left: auto;
+}
+.btn-fill-out-dark {
+  background-color: transparent;
+  border: 1px solid $color_mine_shaft_approx;
+  color: $white !important;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &:hover {
+    color: $color_mine_shaft_approx !important;
+  }
+}
+.btn-fill-out-dark::before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  content: '';
+  background-color: $color_mine_shaft_approx;
+  //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+.btn-line-fill {
+  border: 1px solid $color_mine_shaft_approx;
+  overflow: hidden;
+  position: relative;
+  color: $color_mine_shaft_approx !important;
+  //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+  transition: all 0.8s ease 0s;
+  z-index: 1;
+  &:hover {
+    color: $white !important;
+    &:before {
+      animation: criss-cross-left 0.7s both;
+      animation-direction: alternate;
+    }
+    &:after {
+      animation: criss-cross-right 0.7s both;
+      animation-direction: alternate;
+    }
+  }
+  &:before {
+    position: absolute;
+    top: 50%;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: $color_mine_shaft_approx;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 50%;
+    z-index: -1;
+    left: -20px;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translate(-50%, -50%);
+  }
+  &:after {
+    position: absolute;
+    top: 50%;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: $color_mine_shaft_approx;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 50%;
+    z-index: -1;
+    right: -20px;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translate(50%, -50%);
+  }
+  &.btn-line-white {
+    &:before {
+      background-color: $white;
+    }
+    &:after {
+      background-color: $white;
+    }
+  }
+}
+
+.btn-line-white {
+  border: 1px solid $white;
+  color: $white !important;
+  &:hover {
+    color: $color_mine_shaft_approx !important;
+  }
+}
+.btn-tran-light {
+  background-color: $white_20;
+  color: $white;
+  &:hover {
+    background-color: $white;
+  }
+}
+.btn-radius {
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 40px;
+}
+.btn-sm {
+  padding: 8px 25px;
+}
+.btn-lg {
+  padding: 16px 45px;
+}
+.btn-xs {
+  padding: 4px 20px;
+  font-size: 12px;
+}
+.btn-md {
+  padding: 12px 35px;
+  font-size: 16px;
+}
+.btn-ripple {
+  padding-right: 0 !important;
+  border: 0;
+}
+.btn-link {
+  position: relative;
+  z-index: 2;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.btn-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background-color: $color_radical_red_approx;
+  z-index: -1;
+}
