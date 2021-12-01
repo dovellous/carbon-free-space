@@ -7141,4 +7141,30 @@
 	 color: #081828;
 	 padding: 0 !important;
 }
- 
+
+
+ /* END */
+
+
+@media (min-width:1400px) {
+
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl,
+	.container-xxl {
+		max-width: 90vw;
+	}
+
+}
+
+.items-grid .single-grid .image .author {
+	background-color: #5830e0a8;
+}
+
+.items-grid .single-grid .image .author .author-image a span {
+	font-size: 16px;
+	font-weight: 600;
+	color: #ffffff;
+}
