@@ -99,7 +99,7 @@ Enftix is distributed under the terms of the GNU GPL.
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import "https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap";
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11199,7 +11199,7 @@ textarea.form-control-lg {
 /* Variables */
 :root {
   /* Font Family */
-  --global--font-primary: var("Rajdhani", --font-headings, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
+  --global--font-primary: var(--font-headings, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
   --global--font-secondary: var(--font-base, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif);
   /* Font Size */
   --global--font-size-base: 1.25rem;
@@ -12790,7 +12790,7 @@ pre {
   display: block;
   margin-top: 0;
   font-size: 16px;
-  font-family: "kanit", "sans-serif";
+  font-family: "jost", "sans-serif";
 }
 .newsletter .newsletter-form {
   padding-left: 80px;
@@ -13127,7 +13127,7 @@ pre {
   border-radius: 6px;
   position: relative;
   font-weight: 400;
-  font-family: "kanit", "sans-serif";
+  font-family: "jost", "sans-serif";
 }
 .messages-body .chat-list .single-chat-head li.left .text .time {
   display: block;
@@ -13167,7 +13167,7 @@ pre {
   border-radius: 6px;
   position: relative;
   font-weight: 400;
-  font-family: "kanit", "sans-serif";
+  font-family: "jost", "sans-serif";
 }
 .messages-body .chat-list .single-chat-head li.right .text .time {
   display: block;
@@ -13600,7 +13600,7 @@ html {
 }
 
 body {
-  font-family: "kanit", "sans-serif";
+  font-family: "jost", "sans-serif";
   font-weight: 600;
   font-style: normal;
   color: #888;
@@ -18521,7 +18521,7 @@ table.wp-calendar-table caption {
 .footer .footer-bottom .copyright-text {
   margin-top: 15px;
   color: #e1e1e1;
-  font-family: "kanit", "sans-serif";
+  font-family: "jost", "sans-serif";
 }
 .footer .footer-bottom .copyright-text a {
   color: #e1e1e1;
@@ -19565,7 +19565,7 @@ table.wp-calendar-table caption {
   font-weight: 500;
   padding: 7px 15px;
   border-radius: 6px;
-  font-family: "kanit", "sans-serif";
+  font-family: "jost", "sans-serif";
 }
 .items-grid .single-grid .image .author::before {
   position: absolute;
@@ -19592,7 +19592,7 @@ table.wp-calendar-table caption {
   top: 15px;
   -webkit-box-shadow: 0 5px 10px rgba(35, 38, 45, 0.14) !important;
   box-shadow: 0 5px 10px rgba(35, 38, 45, 0.14) !important;
-  font-family: "kanit", "sans-serif";
+  font-family: "jost", "sans-serif";
 }
 .items-grid .single-grid .image .item-position i {
   display: inline-block;
@@ -19693,7 +19693,7 @@ table.wp-calendar-table caption {
   position: relative;
   font-weight: 500;
   top: 8px;
-  font-family: "kanit", "sans-serif";
+  font-family: "jost", "sans-serif";
 }
 .items-grid .single-grid .content .bottom-content .price span {
   color: #5830e0;
@@ -20323,7 +20323,7 @@ table.wp-calendar-table caption {
   font-size: 18px;
   color: #fff;
   font-weight: 500;
-  font-family: "kanit", "sans-serif";
+  font-family: "jost", "sans-serif";
 }
 
 .testimonials {
@@ -20602,7 +20602,7 @@ table.wp-calendar-table caption {
   color: #888;
   margin-top: 30px;
   text-align: center;
-  font-family: "kanit", "sans-serif";
+  font-family: "jost", "sans-serif";
 }
 .login .form-head form .outer-link a {
   color: #5830e0;
@@ -22818,7 +22818,7 @@ h1.page-title, .page-title.h1 {
 .my-items .item-list-title p {
   color: #888;
   font-weight: 500;
-  font-family: "kanit", "sans-serif";
+  font-family: "jost", "sans-serif";
 }
 .my-items .single-item-list {
   padding: 20px 0;
@@ -22856,7 +22856,7 @@ h1.page-title, .page-title.h1 {
 }
 .my-items .single-item-list p {
   color: #888;
-  font-family: "kanit", "sans-serif";
+  font-family: "jost", "sans-serif";
 }
 .my-items .single-item-list .action-btn li {
   display: inline-block;
@@ -23722,28 +23722,13 @@ footer {
 
 .items-grid .single-grid .content .top-content .rating {
   margin-top: 10px;
-  padding-left: 0 !important;
+  padding-left: 0;
 }
 
 .items-grid .single-grid .content .top-content .info-list {
   margin-top: 10px;
   overflow: hidden;
-  padding-left: 0 !important;
+  padding-left: 0;
 }
 
-@media (min-width: 1400px) {
-  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 85vw;
-  }
-}
-body {
-  font-family: "Kanit";
-}
-
-.items-grid .single-grid .image .author, .navbar-area.sticky {
-  position: fixed;
-  background-color: #ffffffa1;
-  backdrop-filter: blur(12px);
-}
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=app.css.map */

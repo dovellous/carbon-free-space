@@ -1,0 +1,26 @@
+.items-grid .single-grid .content .top-content .rating {
+  margin-top: 10px;
+  padding-left: 0 !important;
+}
+
+.items-grid .single-grid .content .top-content .info-list {
+  margin-top: 10px;
+  overflow: hidden;
+  padding-left: 0 !important;
+}
+
+@media (min-width: 1400px){
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 85vw;
+  }
+}
+
+body{
+  font-family: "Kanit"
+}
+
+.items-grid .single-grid .image .author, .navbar-area.sticky{
+  position: fixed;
+  background-color: #ffffffa1;
+  backdrop-filter: blur(12px);
+}

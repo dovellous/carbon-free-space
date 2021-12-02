@@ -1,0 +1,58 @@
+
+@-webkit-keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes lineanim {
+  50% {
+    -webkit-transform: scaleY(1);
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: scaleY(1);
+    -webkit-transform-origin: top left;
+    //Instead of the line below you could use @include transform-origin($origin-x, $origin-y, $origin-z, $only3d)
+    transform-origin: top left;
+  }
+  100% {
+    -webkit-transform: scaleY(0);
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: scaleY(0);
+    -webkit-transform-origin: bottom left;
+    //Instead of the line below you could use @include transform-origin($origin-x, $origin-y, $origin-z, $only3d)
+    transform-origin: bottom left;
+  }
+  0.1% {
+    -webkit-transform-origin: bottom left;
+    //Instead of the line below you could use @include transform-origin($origin-x, $origin-y, $origin-z, $only3d)
+    transform-origin: bottom left;
+  }
+}
+@keyframes lineanim {
+  50% {
+    -webkit-transform: scaleY(1);
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: scaleY(1);
+    -webkit-transform-origin: top left;
+    //Instead of the line below you could use @include transform-origin($origin-x, $origin-y, $origin-z, $only3d)
+    transform-origin: top left;
+  }
+  100% {
+    -webkit-transform: scaleY(0);
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: scaleY(0);
+    -webkit-transform-origin: bottom left;
+    //Instead of the line below you could use @include transform-origin($origin-x, $origin-y, $origin-z, $only3d)
+    transform-origin: bottom left;
+  }
+  0.1% {
+    -webkit-transform-origin: bottom left;
+    //Instead of the line below you could use @include transform-origin($origin-x, $origin-y, $origin-z, $only3d)
+    transform-origin: bottom left;
+  }
+}

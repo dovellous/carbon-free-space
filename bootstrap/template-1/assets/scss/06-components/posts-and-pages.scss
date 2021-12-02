@@ -1,0 +1,2522 @@
+.sticky {
+	// This class is required to pass ThemeCheck.
+}
+
+.no-results.not-found > *:first-child {
+	margin-bottom: calc(3 * var(--global--spacing-vertical));
+}
+
+// Styling for wp_link_pages.
+.page-links {
+	clear: both;
+
+	.post-page-numbers {
+		display: inline-block;
+		margin-left: calc(0.66 * var(--global--spacing-unit));
+		margin-right: calc(0.66 * var(--global--spacing-unit));
+		min-width: 44px;
+		min-height: 44px;
+
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+}
+
+.blog-list {
+	background: $color_alabaster;
+	.single-news {
+		margin: 0;
+		margin-bottom: 40px;
+	}
+}
+.blog-single {
+	background: $color_alabaster;
+	.post-thumbnils {
+		position: relative;
+		overflow: hidden;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 6px 6px 0 0;
+		img {
+			width: 100%;
+		}
+	}
+}
+.post-details {
+	.detail-inner {
+		background-color: $white;
+		padding: 40px;
+		margin-bottom: 40px;
+		border: 1px solid $color_gallery;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0 0 6px 6px;
+		border-top-color: transparent;
+	}
+	.post-thumbnils {
+		margin-bottom: 30px;
+	}
+	.post-title {
+		font-weight: 700;
+		margin-bottom: 25px;
+		line-height: 32px;
+		a {
+			font-size: 25px;
+			font-weight: 600;
+			&:hover {
+				color: $color_purple_heart;
+			}
+		}
+	}
+	p {
+		font-size: 15px;
+		margin: 30px 0;
+		font-size: 16px;
+		line-height: 28px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	h3 {
+		font-size: 22px;
+		margin-bottom: 20px;
+		font-weight: 600;
+		line-height: 28px;
+	}
+	.list {
+		margin: 40px;
+		li {
+			color: $color_gray;
+			font-weight: 400;
+			padding-left: 40px;
+			display: block;
+			margin-bottom: 20px;
+			position: relative;
+			font-size: 16px;
+			font-family: $secondary_font, $primary_font_fallback;
+			i {
+				display: block;
+				height: 25px;
+				width: 25px;
+				line-height: 25px;
+				font-size: 10px;
+				color: $white;
+				background-color: $color_purple_heart;
+				position: absolute;
+				left: 0;
+				top: -1px;
+				text-align: center;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 3px;
+			}
+			&:last-child {
+				margin: 0;
+			}
+		}
+	}
+	.post-image {
+		margin: 40px 0 20px;
+		width: 100%;
+		img {
+			width: 100%;
+			-webkit-transition: all .4s ease;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: all .4s ease;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 5px;
+		}
+	}
+	.post-meta li {
+		font-size: 15px;
+		font-weight: 500;
+		margin-right: 25px;
+		a {
+			font-size: 13px;
+			font-weight: 400;
+			font-weight: 500;
+			color: $color_black_pearl;
+			i {
+				margin-right: 3px;
+				font-weight: 400;
+				margin-right: 5px;
+				color: $color_purple_heart;
+			}
+			&:hover {
+				color: $color_purple_heart;
+			}
+		}
+	}
+	.post-social-media ul {
+		display: inline-block;
+		margin-left: 30px;
+		li {
+			display: inline-block;
+			margin-right: 13px;
+			a {
+				font-size: 15px;
+				color: $color_martini;
+				position: relative;
+				&:hover {
+					color: $color_purple_heart;
+					span {
+						opacity: 1;
+						visibility: visible;
+						top: -35px;
+					}
+				}
+				span {
+					background-color: $color_purple_heart;
+					color: $white;
+					font-size: 13px;
+					font-weight: 500;
+					padding: 4px 10px;
+					//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+					border-radius: 3px;
+					position: absolute;
+					left: 50%;
+					top: -30px;
+					-webkit-transform: translateX(-50%);
+					//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+					transform: translateX(-50%);
+					opacity: 0;
+					visibility: hidden;
+					-webkit-transition: all .4s ease;
+					//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+					transition: all .4s ease;
+				}
+				span::before {
+					position: absolute;
+					content: "";
+					left: 50%;
+					margin-left: -5px;
+					bottom: -10px;
+					border: 5px solid $color_purple_heart;
+					border-bottom-color: transparent;
+					border-right-color: transparent;
+					border-left-color: transparent;
+				}
+			}
+		}
+	}
+	> ul > li {
+		font-weight: 500;
+	}
+}
+.post-social-media {
+	margin-top: 40px;
+	.share-title {
+		margin-bottom: 20px;
+		font-weight: 500;
+		font-size: 18px;
+		display: inline-block;
+	}
+}
+.detail-post-navigation {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	background: $white;
+	padding: 30px;
+	border: 1px solid $color_gallery;
+}
+.blog-grids.pagination {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.latest-news-area .single-news {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 6px;
+	overflow: hidden;
+	background-color: $white;
+	.image {
+		overflow: hidden;
+		position: relative;
+		z-index: 0;
+		width: 100%;
+		a {
+			width: 100%;
+		}
+		&:before {
+			position: absolute;
+			content: "";
+			left: 50%;
+			top: 0;
+			height: 50px;
+			width: 2px;
+			background: $white;
+			-webkit-transform: translateX(-50%) translateY(-50%);
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: translateX(-50%) translateY(-50%);
+			z-index: 2;
+			-webkit-transition: all .4s ease;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: all .4s ease;
+			opacity: 0;
+			visibility: hidden;
+		}
+		&:after {
+			position: absolute;
+			content: "";
+			left: 0;
+			top: 50%;
+			height: 2px;
+			width: 50px;
+			background: $white;
+			-webkit-transform: translateX(-50%) translateY(-50%);
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: translateX(-50%) translateY(-50%);
+			z-index: 2;
+			-webkit-transition: all .4s ease;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: all .4s ease;
+			opacity: 0;
+			visibility: hidden;
+		}
+		img {
+			width: 100%;
+			-webkit-transition: all .4s ease;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: all .4s ease;
+			position: relative;
+		}
+	}
+	&:hover {
+		.image::before {
+			top: 50%;
+			opacity: 1;
+			visibility: visible;
+		}
+		.image::after {
+			left: 50%;
+			opacity: 1;
+			visibility: visible;
+		}
+		.image img {
+			-webkit-transform: scale(1.1);
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: scale(1.1);
+		}
+	}
+	.content-body {
+		padding: 40px 30px 30px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 6px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0 0 6px 6px;
+		border: 1px solid $color_gallery;
+		.title {
+			line-height: 30px;
+			a {
+				font-size: 20px;
+				font-weight: 700;
+				color: $color_black_pearl;
+				margin-bottom: 20px;
+				&:hover {
+					color: $color_purple_heart;
+				}
+			}
+		}
+		p {
+			font-size: 16px;
+		}
+		.meta-details {
+			padding-top: 15px;
+			margin-top: 30px;
+			border-top: 1px solid $color_gallery;
+			ul {
+				li {
+					display: inline-block;
+					margin-right: 17px;
+					padding-right: 17px;
+					position: relative;
+					&:last-child {
+						margin: 0;
+						padding: 0;
+					}
+					&:last-child::before {
+						display: none;
+					}
+					a {
+						font-size: 14px;
+						color: $color_black_pearl;
+						font-weight: 500;
+						&:hover {
+							color: $color_purple_heart;
+						}
+					}
+				}
+				li::before {
+					position: absolute;
+					content: "";
+					right: -4px;
+					top: 9px;
+					height: 6px;
+					width: 6px;
+					//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+					border-radius: 50%;
+					background: $color_purple_heart;
+				}
+			}
+		}
+	}
+}
+.sidebar .widget {
+	padding: 40px;
+	background-color: $white;
+	margin-bottom: 30px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 5px;
+	border: 1px solid $color_gallery;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	.widget-title {
+		font-size: 20px;
+		margin-bottom: 40px;
+		line-height: 1;
+		position: relative;
+		font-weight: 600;
+		line-height: 28px;
+		z-index: 1;
+		span {
+			background-color: $white;
+			padding-right: 18px;
+		}
+	}
+	.widget-title::before {
+		position: absolute;
+		left: 0;
+		top: 50%;
+		height: 1px;
+		width: 100%;
+		background-color: $color_gallery;
+		content: '';
+		z-index: -1;
+	}
+	&.popular-tag-widget {
+		padding-bottom: 30px;
+	}
+	&.search-widget form {
+		position: relative;
+		input {
+			width: 100%;
+			background-color: transparent;
+			height: 55px;
+			border: none;
+			padding: 0 80px 0 30px;
+			font-size: 15px;
+			font-weight: 400;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 0;
+			border: 1px solid $color_gallery;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 5px;
+			&:-ms-input-placeholder {
+				color: $color_mine_shaft;
+			}
+		}
+		input::-webkit-input-placeholder {
+			color: $color_mine_shaft;
+		}
+		input::-ms-input-placeholder {
+			color: $color_mine_shaft;
+		}
+		input::placeholder {
+			color: $color_mine_shaft;
+		}
+		button {
+			position: absolute;
+			right: 7px;
+			top: 6px;
+			width: 55px;
+			height: 42px;
+			z-index: 1;
+			color: $white!important;
+			font-size: 13px;
+			-webkit-transition: all .3s ease-out 0s;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: all .3s ease-out 0s;
+			color: $white;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 0;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 3px;
+			padding: 0!important;
+			border: none;
+			background: $color_purple_heart;
+			&:hover {
+				background-color: $color_black_pearl;
+				color: $white;
+			}
+		}
+	}
+	&.popular-feeds .single-popular-feed {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		border-bottom: 1px solid $color_gallery;
+		&:last-child {
+			border: none;
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+		.feed-img {
+			width: 80px;
+			margin-right: 20px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 50%;
+			height: 80px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 50%!important;
+			overflow: hidden;
+		}
+		.feed-desc {
+			.post-title {
+				font-size: 16px;
+				font-weight: 600;
+				margin-bottom: 12px;
+				line-height: 1.5;
+				a {
+					font-size: 16px;
+					font-weight: 500;
+					&:hover {
+						color: $color_purple_heart;
+					}
+				}
+			}
+			.time {
+				font-weight: 400;
+				font-size: 14px;
+				> i {
+					margin-right: 4px;
+				}
+			}
+		}
+	}
+	&.categories-widget ul li {
+		margin-bottom: 10px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		a {
+			font-size: 15px;
+			height: 35px;
+			background-color: transparent;
+			display: block;
+			position: relative;
+			line-height: 35px;
+			color: $color_black_pearl;
+			-webkit-transition: all .3s ease-out 0s;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: all .3s ease-out 0s;
+			font-weight: 500;
+			padding: 0;
+			padding-right: 40px!important;
+			display: inline-block;
+			line-height: 22px;
+			width: 100%;
+			span {
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 35px;
+				height: 35px;
+				line-height: 35px;
+				text-align: center;
+				background-color: transparent;
+				color: $color_mine_shaft;
+				-webkit-transition: all .3s ease-out 0s;
+				//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+				transition: all .3s ease-out 0s;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 50%;
+				border: 1px solid $color_gallery;
+				font-size: 12px;
+			}
+			&:hover {
+				color: $color_purple_heart;
+				span {
+					background: $color_purple_heart;
+					color: $white;
+					border-color: transparent;
+				}
+			}
+		}
+	}
+}
+.popular-tag-widget .tags > a {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding: 8px 20px;
+	text-transform: capitalize;
+	font-size: 15px;
+	font-weight: 400;
+	background: $color_purple_heart;
+	margin-right: 7px;
+	margin-bottom: 10px;
+	color: $white;
+	background: 0 0;
+	color: $color_gray;
+	border: 1px solid $color_gallery;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 4px;
+	&:hover {
+		background-color: $color_purple_heart;
+		color: $white;
+		border-color: transparent;
+	}
+}
+.sidebar-as img {
+	width: 100%;
+}
+.category-sidebar .single-widget {
+	background-color: $white;
+	padding: 30px;
+	border: 1px solid $color_gallery;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 6px;
+	margin-bottom: 30px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	h3 {
+		font-size: 18px;
+		font-weight: 600;
+		display: block;
+		margin-bottom: 25px;
+	}
+	&.range {
+		input {
+			color: $color_black_pearl;
+			cursor: pointer;
+		}
+		::-webkit-input-placeholder {
+			color: $color_black_pearl;
+			opacity: 1;
+		}
+		:-ms-input-placeholder {
+			opacity: 1;
+			color: $color_black_pearl;
+		}
+		::-ms-input-placeholder {
+			opacity: 1;
+			color: $color_black_pearl;
+		}
+		::placeholder {
+			color: $color_black_pearl;
+			opacity: 1;
+		}
+		.range-inner {
+			position: relative;
+			padding-left: 15px;
+		}
+		label {
+			color: $color_black_pearl;
+			display: inline-block;
+			position: absolute;
+			left: 0;
+			top: 50%;
+			-webkit-transform: translateY(-50%);
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: translateY(-50%);
+			font-size: 15px;
+		}
+		#rangePrimary {
+			display: inline-block;
+			border: none;
+		}
+		input[type=range]::-webkit-slider-thumb {
+			background: $color_purple_heart!important;
+		}
+		input[type=range]::-moz-range-thumb {
+			background: $color_purple_heart!important;
+		}
+		input[type=range]::-ms-thumb {
+			background: $color_purple_heart!important;
+		}
+	}
+	&.condition {
+		.form-check {
+			display: block;
+			margin-bottom: 10px;
+			&:last-child {
+				margin: 0;
+			}
+		}
+		.form-check-label {
+			cursor: pointer;
+		}
+		.form-check-input {
+			cursor: pointer;
+			&:checked {
+				background-color: $color_purple_heart;
+				border-color: $color_purple_heart;
+			}
+		}
+	}
+	&.search form {
+		position: relative;
+		input {
+			height: 50px;
+			width: 100%;
+			border: 1px solid $color_gallery;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 6px;
+			color: $color_black_pearl;
+			padding: 0 15px;
+			padding-right: 50px;
+		}
+		button {
+			height: 40px;
+			width: 40px;
+			text-align: center;
+			display: block;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 6px;
+			border: none;
+			background-color: transparent;
+			color: $color_black_pearl;
+			position: absolute;
+			right: 5px;
+			top: 50%;
+			-webkit-transform: translateY(-50%);
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: translateY(-50%);
+			-webkit-transition: all .4s ease;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: all .4s ease;
+			&:hover {
+				color: $color_purple_heart;
+			}
+		}
+	}
+	.list li {
+		margin-bottom: 25px;
+		&:last-child {
+			margin: 0;
+		}
+		a {
+			color: $color_gray;
+			display: block;
+			position: relative;
+			padding-right: 35px;
+			i {
+				display: inline-block;
+				margin-right: 5px;
+			}
+			span {
+				height: 30px;
+				width: 30px;
+				line-height: 28px;
+				text-align: center;
+				display: block;
+				border: 1px solid $color_gallery;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 50%;
+				font-size: 13px;
+				position: absolute;
+				top: 50%;
+				right: 0;
+				-webkit-transform: translateY(-50%);
+				//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+				transform: translateY(-50%);
+			}
+			&:hover {
+				color: $color_purple_heart;
+				span {
+					color: $white;
+					background-color: $color_purple_heart;
+					border-color: transparent;
+				}
+			}
+		}
+	}
+	&.banner a img {
+		width: 100%;
+	}
+}
+
+.categories {
+	background-color: transparent;
+	height: 0;
+	.cat-inner {
+		padding: 30px 40px;
+		border: 1px solid $color_gallery;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 6px;
+		position: relative;
+		z-index: 9;
+		background: $white;
+		-webkit-transform: translateY(-50%);
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(-50%);
+	}
+	&.style2 {
+		height: auto;
+		padding: 100px 0;
+		.section-title {
+			margin-bottom: 50px;
+		}
+		.cat-inner {
+			-webkit-transform: none;
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: none;
+			padding: 0;
+			border: none;
+		}
+		.single-cat {
+			margin-top: 30px;
+			border: 1px solid $color_gallery;
+			padding: 25px 10px;
+			&:hover {
+				-webkit-box-shadow: 0 10px 15px #00000012;
+				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				box-shadow: 0 10px 15px #00000012;
+				background-color: $white;
+				-webkit-transform: translateY(-5px);
+				//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+				transform: translateY(-5px);
+			}
+		}
+	}
+	.single-cat {
+		text-align: center;
+		padding: 15px 10px;
+		-webkit-transition: all .3s ease;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: all .3s ease;
+		display: block;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0;
+		position: relative;
+		overflow: hidden;
+		z-index: 2;
+		border: none;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 6px;
+		&:hover {
+			background-color: $color_alabaster;
+			h3 {
+				color: $color_purple_heart;
+			}
+			.total {
+				background-color: $color_purple_heart;
+				color: $white;
+				border-color: transparent;
+			}
+		}
+		h3 {
+			display: block;
+			margin-top: 10px;
+			font-size: 14px;
+			line-height: 26px;
+			font-weight: 500;
+			color: $color_black_pearl;
+			-webkit-transition: all .4s ease;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: all .4s ease;
+		}
+		.total {
+			font-size: 13px;
+			padding: 5px 10px;
+			font-weight: 500;
+			text-align: center;
+			background: $color_alabaster;
+			border: 1px solid $color_gallery;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 5px;
+			color: $color_black_pearl;
+			display: inline-block;
+			margin-top: 15px;
+			-webkit-transition: all .4s ease;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: all .4s ease;
+		}
+		.icon img {
+			width: 40px;
+		}
+	}
+	.tns-controls button {
+		width: 46px;
+		height: 46px;
+		cursor: pointer;
+		z-index: 2;
+		color: $white;
+		font-size: 17px;
+		background: $color_purple_heart;
+		border: none;
+		padding: 2px 5px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 50%;
+		-webkit-transition: all .3s ease-out 0s;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: all .3s ease-out 0s;
+		position: absolute;
+		z-index: 99;
+		top: 50%;
+		font-size: 14px;
+		color: $white;
+		-webkit-transform: translateY(-50%);
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(-50%);
+		opacity: 0;
+		visibility: hidden;
+		-webkit-transition: all .4s ease;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: all .4s ease;
+		&:hover {
+			background-color: $color_black_pearl;
+			color: $white;
+		}
+		&:first-child {
+			left: -23px;
+		}
+		&:last-child {
+			right: -23px;
+		}
+	}
+	&:hover .tns-controls button {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+.all-categories {
+	border-bottom: 1px solid $color_gallery;
+	padding-bottom: 70px;
+	.categories-title {
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 30px;
+	}
+	.cat-title {
+		font-size: 16px;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		padding: 15px 20px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 4px;
+		background: $color_purple_heart;
+		color: $white;
+		span {
+			font-weight: 400;
+			display: inline-block;
+			margin-left: 5px;
+			font-size: 14px;
+		}
+	}
+	ul {
+		margin-bottom: 30px;
+		li {
+			display: block;
+			margin-bottom: 7px;
+			&:last-child {
+				margin: 0;
+			}
+			a {
+				color: $color_gray;
+				padding: 10px 15px;
+				border: 1px solid $color_gallery;
+				display: block;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 4px;
+				&:hover {
+					color: $white;
+					background-color: $color_purple_heart;
+					border-color: transparent;
+				}
+			}
+		}
+	}
+}
+.category-page {
+	background-color: $color_alabaster;
+	.single-ad-grid {
+		background-color: $white;
+	}
+	.category-grid-topbar {
+		padding: 15px 20px;
+		background-color: $white;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 6px;
+		border: 1px solid $color_gallery;
+		padding-right: 15px;
+		.title {
+			font-size: 15px;
+			font-weight: 500;
+			color: $color_gray;
+			float: left;
+		}
+		.nav {
+			border: none;
+			float: right;
+			button {
+				border: none;
+				padding: 5px 10px 3px;
+				border: 1px solid $color_gallery;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 4px;
+				margin-right: 6px;
+				&.active {
+					background-color: $color_purple_heart;
+					border-color: transparent;
+					color: $white;
+				}
+				&:last-child {
+					margin: 0;
+				}
+			}
+		}
+	}
+}
+.items-grid {
+	background: $color_alabaster;
+	&.custom-padding {
+		padding-top: 220px;
+	}
+	.section-title {
+		margin-bottom: 50px;
+	}
+	.single-grid {
+		-webkit-box-shadow: 0 10px 30px $color_shark_14!important;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 10px 30px $color_shark_14!important;
+		background: $white;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 6px;
+		overflow: hidden;
+		margin-top: 30px;
+		.image {
+			position: relative;
+			.author {
+				background: 0 0;
+				padding: 15px 20px;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 0;
+				position: absolute;
+				left: 0;
+				bottom: 5px;
+				overflow: visible;
+				width: 100%;
+				z-index: 2!important;
+				.author-image {
+					float: left;
+					a {
+						color: $color_black_pearl;
+						&:hover {
+							color: $color_purple_heart;
+							span {
+								color: $color_purple_heart;
+							}
+						}
+						span {
+							font-size: 14px;
+							font-weight: 500;
+							display: inline-block;
+							margin-left: 5px;
+							color: $white;
+						}
+					}
+					img {
+						height: 40px;
+						width: 40px;
+						//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+						border-radius: 50%;
+						display: inline-block;
+					}
+					p {
+						display: inline-block;
+						margin-left: 5px;
+					}
+				}
+				.sale {
+					display: inline-block;
+					background: $color_purple_heart;
+					color: $white;
+					font-size: 14px;
+					float: right;
+					font-weight: 500;
+					padding: 7px 15px;
+					//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+					border-radius: 6px;
+					font-family: $primary_font, $primary_font_fallback;
+				}
+			}
+			.author::before {
+				position: absolute;
+				content: "";
+				left: 0;
+				bottom: 0;
+				height: 110px;
+				width: 100%;
+				background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000000e3));
+				background: linear-gradient(transparent, #000000e3);
+				z-index: -1;
+				overflow: visible;
+			}
+			.item-position {
+				display: inline-block;
+				background: $color_purple_heart;
+				color: $white;
+				font-size: 14px;
+				font-weight: 600;
+				padding: 8px 15px;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 6px;
+				position: absolute;
+				right: 15px;
+				top: 15px;
+				-webkit-box-shadow: 0 5px 10px $color_shark_14!important;
+				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				box-shadow: 0 5px 10px $color_shark_14!important;
+				font-family: $primary_font, $primary_font_fallback;
+				i {
+					display: inline-block;
+					margin-right: 3px;
+				}
+			}
+			img {
+				width: 100%;
+				-webkit-transition: all .4s ease;
+				//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+				transition: all .4s ease;
+			}
+			.thumbnail {
+				overflow: hidden;
+			}
+		}
+		.content {
+			.top-content {
+				padding: 30px 30px 25px;
+				.tag {
+					display: inline-block;
+					margin-bottom: 5px;
+					color: $color_gray;
+					font-size: 14px;
+					font-weight: 500;
+					i {
+						display: inline-block;
+						margin-right: 5px;
+						color: $color_purple_heart;
+					}
+					&:hover {
+						color: $color_purple_heart;
+					}
+				}
+				.title {
+					display: block;
+					margin-bottom: 10px;
+					line-height: 30px;
+					a {
+						color: $color_black_pearl;
+						font-size: 20px;
+						font-weight: 600;
+						&:hover {
+							color: $color_purple_heart;
+						}
+					}
+				}
+				.update-time {
+					font-size: 14px;
+				}
+				.rating {
+					margin-top: 10px;
+					li {
+						display: inline-block;
+						color: $color_yellow_sea;
+						a {
+							color: $color_gray;
+							font-weight: 400;
+							font-size: 13px;
+							&:hover {
+								color: $color_purple_heart;
+							}
+						}
+					}
+				}
+				.info-list {
+					margin-top: 10px;
+					overflow: hidden;
+					li {
+						display: block;
+						float: left;
+						width: 50%;
+						line-height: 30px;
+						font-size: 14px;
+						font-weight: 500;
+						a {
+							color: $color_gray;
+							font-weight: 500;
+							&:hover {
+								color: $color_purple_heart;
+							}
+							i {
+								color: $color_purple_heart;
+								display: inline-block;
+								margin-right: 3px;
+							}
+						}
+						&:last-child {
+							margin: 0;
+						}
+					}
+				}
+			}
+			.bottom-content {
+				padding: 15px 30px;
+				border-top: 1px solid $color_gallery;
+				overflow: hidden;
+				.price {
+					float: left;
+					font-size: 14px;
+					position: relative;
+					font-weight: 500;
+					top: 8px;
+					font-family: $primary_font, $primary_font_fallback;
+					span {
+						color: $color_purple_heart;
+						font-weight: 700;
+						font-size: 18px;
+						display: inline-block;
+						margin-left: 5px;
+					}
+				}
+				.like {
+					float: right;
+					color: $color_purple_heart;
+					font-size: 18px;
+					height: 40px;
+					width: 40px;
+					line-height: 40px;
+					text-align: center;
+					display: block;
+					//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+					border-radius: 50%;
+					border: 1px solid $color_gallery;
+					&:hover {
+						color: $white;
+						background: $color_purple_heart;
+						border-color: transparent;
+					}
+				}
+			}
+		}
+		&:hover .image .thumbnail img {
+			-webkit-transform: scale(1.1);
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: scale(1.1);
+		}
+	}
+}
+.browse-cities {
+	background-color: $color_alabaster;
+	.section-title {
+		margin-bottom: 50px;
+	}
+	.single-city {
+		margin-top: 30px;
+		position: relative;
+		z-index: 3;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 6px;
+		overflow: hidden;
+		.info-box {
+			position: relative;
+		}
+		.info-box::before {
+			position: absolute;
+			content: "";
+			left: 0;
+			bottom: 0;
+			height: 130px;
+			width: 100%;
+			background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000000f0));
+			background: linear-gradient(transparent, #000000f0);
+			z-index: 0;
+		}
+		.more-btn {
+			font-size: 30px;
+			color: $white;
+			-webkit-transition: all .4s ease;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: all .4s ease;
+			opacity: 0;
+			visibility: hidden;
+			-webkit-transform: scale(0);
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: scale(0);
+			position: absolute;
+			right: 25px;
+			bottom: 25px;
+			&:hover {
+				color: $color_purple_heart;
+			}
+		}
+		&:hover {
+			.more-btn {
+				opacity: 1;
+				visibility: visible;
+				-webkit-transform: scale(1);
+				//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+				transform: scale(1);
+			}
+			.image img {
+				-webkit-transform: scale(1.1);
+				//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+				transform: scale(1.1);
+			}
+		}
+		.image {
+			z-index: -1;
+			position: relative;
+			img {
+				height: 100%;
+				width: 100%;
+				-webkit-transition: all .4s ease;
+				//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+				transition: all .4s ease;
+			}
+		}
+		.content {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			padding: 25px;
+			padding-right: 70px;
+			.name {
+				font-size: 18px;
+				font-weight: 600;
+				color: $white;
+				display: block;
+				-webkit-transition: all .4s ease;
+				//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+				transition: all .4s ease;
+				display: inline-block;
+				&:hover {
+					color: $color_purple_heart;
+				}
+				span {
+					color: $white;
+					font-size: 14px;
+					font-weight: 400;
+					display: block;
+					margin-top: 4px;
+				}
+			}
+		}
+	}
+}
+.items-tab {
+	background: $white;
+	&.custom-padding {
+		padding-top: 150px;
+	}
+	.nav-tabs {
+		border-bottom: 2px solid $color_gallery;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 30px!important;
+		.nav-link {
+			display: inline-block!important;
+			background: 0 0!important;
+			color: $color_black_pearl;
+			font-size: 16px;
+			font-weight: 500;
+			padding: 15px 40px;
+			border: none;
+			border-bottom: 2px solid transparent;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 0;
+			-webkit-transition: all .4s ease;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: all .4s ease;
+			position: relative;
+			bottom: -1px;
+			&:hover {
+				color: $color_purple_heart;
+			}
+			&.active {
+				color: $color_purple_heart;
+				border: none;
+				border-bottom: 2px solid $color_purple_heart;
+			}
+		}
+	}
+	.nav {
+		display: inline-block!important;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		padding-left: 0;
+		margin-bottom: 0;
+		list-style: none;
+		position: relative;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(-50%);
+	}
+}
+.single-item-grid {
+	background: #f7f7f770;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 6px;
+	overflow: hidden;
+	margin-top: 30px;
+	border: 1px solid #3333331a;
+	-webkit-transition: all .4s ease;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all .4s ease;
+	&:hover {
+		-webkit-box-shadow: 0 10px 30px #00000010;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 0 10px 30px #00000010;
+		background: $white;
+		.image img {
+			-webkit-transform: scale(1.1);
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: scale(1.1);
+		}
+	}
+	.image {
+		overflow: hidden;
+		position: relative;
+		a {
+			width: 100%;
+		}
+		img {
+			width: 100%;
+			-webkit-transition: all .3s ease;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: all .3s ease;
+		}
+		.cross-badge {
+			position: absolute;
+			top: 0;
+			left: 15px;
+			width: 25px;
+			height: 35px;
+			font-size: 14px;
+			line-height: 30px;
+			color: $white;
+			text-align: center;
+			background: $color_purple_heart;
+			//Instead of the line below you could use @include border-bottom-left-radius($radius)
+			border-bottom-left-radius: 3px;
+			//Instead of the line below you could use @include border-bottom-right-radius($radius)
+			border-bottom-right-radius: 3px;
+			-webkit-clip-path: polygon(0 0, 53% 0, 100% 0, 100% 100%, 50% 85%, 0 100%);
+			clip-path: polygon(0 0, 53% 0, 100% 0, 100% 100%, 50% 85%, 0 100%);
+		}
+		.flat-badge {
+			position: absolute;
+			top: 15px;
+			right: 15px;
+			color: $white;
+			padding: 2px 8px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 3px;
+			font-size: 13px;
+			line-height: 18px;
+			letter-spacing: .3px;
+			text-transform: capitalize;
+		}
+		.sale {
+			background: $color_amaranth;
+		}
+		.rent {
+			background: $color_japanese_laurel;
+		}
+	}
+	.content {
+		padding: 20px 25px 20px 20px;
+		.tag {
+			font-size: 14px;
+			font-weight: 400;
+			color: $color_gray;
+			font-weight: 500;
+			&:hover {
+				color: $color_purple_heart;
+			}
+		}
+		.title {
+			border-top: 1px solid $color_gallery;
+			margin-top: 10px;
+			padding-top: 10px;
+			a {
+				font-size: 18px;
+				font-weight: 600;
+				color: $color_black_pearl;
+				&:hover {
+					color: $color_purple_heart;
+				}
+			}
+		}
+		.location {
+			margin-top: 10px;
+			a {
+				color: $color_gray;
+				i {
+					color: $color_purple_heart;
+					display: inline-block;
+					margin-right: 5px;
+				}
+				&:hover {
+					color: $color_purple_heart;
+				}
+			}
+		}
+		.info {
+			overflow: hidden;
+			margin-top: 15px;
+			.price {
+				font-size: 18px;
+				font-weight: 600;
+				color: $color_purple_heart;
+				float: left;
+				position: relative;
+				top: 5px;
+			}
+			.like {
+				float: right;
+				a {
+					color: $color_gray;
+					font-size: 14px;
+					height: 35px;
+					width: 35px;
+					line-height: 35px;
+					text-align: center;
+					display: block;
+					border: 1px solid $color_gallery;
+					//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+					border-radius: 50%;
+					&:hover {
+						color: $white;
+						background: $color_purple_heart;
+						border-color: transparent;
+					}
+				}
+			}
+		}
+	}
+}
+.post-ad-tab {
+	padding: 0 30px;
+	nav {
+		.nav-tabs {
+			border-bottom: 2px solid $color_gallery;
+		}
+		button {
+			padding: 20px 40px;
+			border: none!important;
+			text-align: left;
+			padding-left: 100px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 0!important;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 6px 6px 0 0!important;
+			margin: 0!important;
+			width: 33.33333333333333%;
+			position: relative;
+			bottom: -1px;
+			font-size: 17px;
+			font-weight: 600;
+			color: $color_black_pearl;
+			.serial {
+				height: 50px;
+				width: 50px;
+				line-height: 50px;
+				border: 1px solid $color_gallery;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 50%;
+				text-align: center;
+				color: $color_gray;
+				font-size: 19px;
+				font-weight: 600;
+				display: block;
+				position: absolute;
+				left: 30px;
+				top: 50%;
+				-webkit-transform: translateY(-50%);
+				//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+				transform: translateY(-50%);
+			}
+			&.active {
+				color: $white!important;
+				background: $color_purple_heart!important;
+				border: none!important;
+				.serial {
+					border-color: transparent;
+					background: $white;
+					color: $color_purple_heart;
+				}
+				.sub-title {
+					color: $white;
+				}
+			}
+			.sub-title {
+				display: block;
+				color: $color_gray;
+				font-size: 14px;
+				font-weight: 400;
+			}
+			&:hover {
+				border: none!important;
+			}
+		}
+	}
+	.step-two-content {
+		.upload-input {
+			position: relative;
+			height: 240px;
+			input {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				border: 2px dashed $color_slate_gray_25;
+				text-indent: -9999px;
+				z-index: 2;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 6px;
+			}
+			.plus-icon {
+				height: 80px;
+				width: 80px;
+				color: $white;
+				background: #88888859;
+				display: inline-block;
+				line-height: 80px;
+				font-size: 18px;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 5px;
+				-webkit-transition: all .4s ease;
+				//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+				transition: all .4s ease;
+			}
+			.content {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				padding: 30px;
+				top: 0;
+				left: 0;
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				align-items: center;
+				z-index: 2;
+			}
+			&:hover .plus-icon {
+				background-color: $color_purple_heart;
+			}
+		}
+		.video-label {
+			display: inline-block;
+			span {
+				color: $color_gray;
+				display: inline-block;
+				margin-left: 12px;
+				font-weight: 400;
+				font-size: 14px;
+			}
+		}
+		.add-video {
+			text-transform: capitalize;
+			font-weight: 600;
+			color: $color_gray;
+			font-size: 14px;
+			margin-top: 20px;
+			&:hover {
+				color: $color_purple_heart;
+			}
+			i {
+				display: inline-block;
+				margin-right: 5px;
+			}
+		}
+		.tag-label {
+			display: inline-block;
+			span {
+				color: $color_gray;
+				display: inline-block;
+				margin-left: 12px;
+				font-weight: 400;
+				font-size: 14px;
+			}
+		}
+	}
+	.step-three-content {
+		.google-map {
+			margin-bottom: 30px;
+		}
+		.form-check {
+			display: block;
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.hero-area {
+	background-image: $img_hero_bg;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding-top: 250px;
+	padding-bottom: 300px;
+	z-index: 2;
+	&.overlay::before {
+		z-index: -1;
+		background: $color_black_pearl;
+		opacity: .9;
+	}
+	&.style2 {
+		padding-top: 150px;
+		padding-bottom: 100px;
+		background-image: $img_hero_bg_2;
+		.hero-text {
+			text-align: left;
+			h2 {
+				font-size: 50px;
+				margin-bottom: 30px;
+				padding-bottom: 20px;
+			}
+			h2::before {
+				left: 0;
+				margin-left: 0;
+			}
+		}
+	}
+	&.style3 {
+		padding-top: 250px;
+		padding-bottom: 0;
+		background-image: $img_hero_bg_3;
+		.search-form {
+			margin-top: 100px;
+			background: $white;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 6px;
+			padding: 35px 40px;
+			padding-right: 55px;
+			width: 100%;
+			border: 1px solid $color_gallery;
+			position: relative;
+			-webkit-transform: translateY(50%);
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: translateY(50%);
+			.btn:hover {
+				background-color: $color_black_pearl;
+				color: $white;
+			}
+		}
+		.categories {
+			padding: 0;
+			margin-top: 30px;
+			.single-cat {
+				border: none;
+				background-color: $white;
+				padding: 20px 10px;
+			}
+		}
+	}
+	.hero-text {
+		h2 {
+			color: $white;
+			font-size: 45px;
+			line-height: 60px;
+			font-weight: 600;
+			margin-bottom: 25px;
+			padding-bottom: 15px;
+			position: relative;
+		}
+		h2::before {
+			position: absolute;
+			content: "";
+			left: 50%;
+			bottom: -2px;
+			height: 4px;
+			width: 60px;
+			margin-left: -30px;
+			background: $color_purple_heart;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 10px;
+		}
+		p {
+			color: $color_alto;
+			font-size: 16px;
+			font-weight: 400;
+			display: block;
+		}
+	}
+}
+.about-us {
+	.content-left {
+		position: relative;
+		img {
+			width: 100%;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 6px;
+		}
+		.video {
+			position: absolute;
+			height: 80px;
+			width: 80px;
+			line-height: 80px;
+			text-align: center;
+			color: $color_purple_heart;
+			background-color: $white;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 50%;
+			left: 50%;
+			top: 50%;
+			margin-left: -40px;
+			margin-top: -40px;
+			font-size: 16px;
+			padding-left: 3px;
+			-webkit-transition: all .4s ease-in-out;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: all .4s ease-in-out;
+			&:hover {
+				color: $white;
+				background-color: $color_purple_heart;
+				-webkit-transform: scale(1.05);
+				//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+				transform: scale(1.05);
+			}
+		}
+	}
+	.content-right {
+		padding-right: 70px;
+		padding-left: 40px;
+		.sub-heading {
+			display: inline-block;
+			margin-bottom: 10px;
+			font-weight: 500;
+			font-size: 15px;
+			color: $color_purple_heart;
+			background-color: $color_alabaster;
+			padding: 5px 20px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 4px;
+		}
+		h2 {
+			display: block;
+			font-size: 32px;
+			margin-bottom: 25px;
+			line-height: 40px;
+			text-transform: capitalize;
+			position: relative;
+			font-weight: 700;
+		}
+		h3 {
+			font-size: 22px;
+			margin-top: 40px;
+			margin-bottom: 8px;
+			line-height: 45px;
+			text-transform: capitalize;
+			position: relative;
+			font-weight: 600;
+		}
+		p {
+			font-size: 16px;
+			line-height: 26px;
+		}
+	}
+}
+.our-achievement {
+	background-color: $color_purple_heart;
+	padding-top: 70px;
+	padding: 90px 0 120px;
+	.single-achievement {
+		margin-top: 30px;
+		text-align: center;
+		padding: 0 50px;
+		h3 {
+			font-size: 40px;
+			font-weight: 600;
+			display: block;
+			margin-bottom: 5px;
+			color: $white;
+		}
+		p {
+			font-size: 18px;
+			color: $white;
+			font-weight: 500;
+			font-family: $primary_font, $primary_font_fallback;
+		}
+	}
+}
+.testimonials {
+	background-color: $color_black_pearl;
+	padding-bottom: 180px;
+	.section-title {
+		h2 {
+			color: $white;
+		}
+		p {
+			color: $white;
+		}
+	}
+	.testimonial-slider {
+		margin: 0;
+	}
+	.tns-nav {
+		text-align: center;
+		position: absolute;
+		bottom: 90px;
+		-webkit-transform: translateX(-50%);
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(-50%);
+		width: 100%;
+		left: 50%;
+		z-index: 9;
+		button {
+			height: 5px;
+			width: 30px;
+			background-color: $white;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 5px;
+			display: inline-block;
+			border: none;
+			margin: 0 5px;
+			-webkit-transition: all .4s ease;
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: all .4s ease;
+			&:hover {
+				background: $color_purple_heart;
+			}
+			&.tns-nav-active {
+				background: $color_purple_heart;
+			}
+		}
+	}
+	.single-testimonial {
+		background: $white;
+		border: 1px solid $color_gallery;
+		padding: 50px 40px;
+		margin: 20px 0;
+		-webkit-transition: all .4s ease;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: all .4s ease;
+		position: relative;
+		.quote-icon {
+			position: absolute;
+			right: 30px;
+			top: 10px;
+			i {
+				font-size: 70px;
+				color: #cccccc3b;
+			}
+		}
+		&:hover {
+			-webkit-box-shadow: 0 0 13px #0000001a;
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: 0 0 13px #0000001a;
+			.author img {
+				border-color: $color_purple_heart;
+			}
+		}
+		.author {
+			position: relative;
+			padding-left: 90px;
+			min-height: 70px;
+			margin-bottom: 25px;
+			padding-top: 10px;
+			img {
+				height: 70px;
+				width: 70px;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 50%;
+				border: 5px solid $color_gallery;
+				position: absolute;
+				left: 0;
+				top: 0;
+				-webkit-transition: all .4s ease;
+				//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+				transition: all .4s ease;
+			}
+			.name {
+				font-size: 18px;
+				font-weight: 600;
+				color: $color_black_pearl;
+				.deg {
+					display: block;
+					margin-top: 5px;
+					font-size: 14px;
+					font-weight: 400;
+					color: $color_gray;
+				}
+			}
+		}
+		.text p {
+			font-size: 16px;
+		}
+	}
+}
+.pricing-table {
+	background: $color_alabaster;
+	position: relative;
+	.section-title {
+		margin-bottom: 50px;
+	}
+	.single-table {
+		margin-top: 30px;
+		background: $white;
+		text-align: left;
+		position: relative;
+		-webkit-transition: all .4s ease;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: all .4s ease;
+		border: 1px solid $color_gallery;
+		overflow: hidden;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 6px;
+		padding: 40px;
+		z-index: 2;
+		.table-head {
+			position: relative;
+			.amount {
+				font-size: 35px;
+				line-height: 56px;
+				font-weight: 700;
+				color: $white;
+			}
+			.duration {
+				color: $white;
+				font-size: 14px;
+				font-weight: 400;
+				display: inline-block;
+				margin-left: 4px;
+				position: relative;
+				top: -2px;
+			}
+			.title {
+				font-size: 16px;
+				line-height: 26px;
+				color: $white;
+				font-weight: 500;
+				text-transform: uppercase;
+				letter-spacing: 5px;
+				margin-bottom: 19px;
+			}
+		}
+		.table-list {
+			position: relative;
+			display: block;
+			margin-top: 90px;
+			li {
+				position: relative;
+				display: block;
+				font-size: 16px;
+				line-height: 26px;
+				color: $color_mine_shaft;
+				font-weight: 400;
+				margin-bottom: 10px;
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+		.button {
+			margin-top: 40px;
+		}
+	}
+	.single-table::before {
+		position: absolute;
+		content: "";
+		left: 0;
+		top: 0;
+		height: 300px;
+		width: 300px;
+		background: $color_purple_heart;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 50%;
+		left: -50px;
+		top: -110px;
+	}
+	.single-table::after {
+		position: absolute;
+		content: "";
+		left: 0;
+		top: 0;
+		height: 300px;
+		width: 300px;
+		background: $color_purple_heart;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 50%;
+		left: -40px;
+		top: -110px;
+		opacity: .8;
+		z-index: -1;
+	}
+}
+.faq {
+	padding-bottom: 80px;
+}
+.login {
+	background-color: $color_alabaster;
+	.form-head {
+		padding: 50px;
+		border: 1px solid $color_gallery;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 6px;
+		background-color: $white;
+		.title {
+			font-size: 30px;
+			line-height: 1.42;
+			font-weight: 600;
+			margin-bottom: 30px;
+			text-align: center;
+		}
+		form {
+			.form-group {
+				margin-bottom: 25px;
+				label {
+					display: block;
+					margin-bottom: .5rem;
+					color: $color_gray;
+					font-size: 15px;
+					font-weight: 400;
+				}
+				input {
+					width: 100%;
+					min-height: 56px;
+					padding: 3px 20px;
+					color: $color_black_pearl;
+					border: 1px solid $color_gallery;
+					//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+					border-radius: 6px;
+					outline: 0;
+					background-color: $white;
+					font-size: 15px;
+				}
+			}
+			.check-and-pass {
+				.form-check {
+					float: left;
+					a {
+						color: $color_purple_heart;
+					}
+					.form-check-input:checked {
+						background-color: $color_purple_heart;
+						border-color: $color_purple_heart;
+					}
+				}
+				.lost-pass {
+					float: right;
+					color: $color_boulder;
+					position: relative;
+					top: -2px;
+					&:hover {
+						color: $color_purple_heart;
+						text-decoration: underline;
+					}
+				}
+				.form-check-label a:hover {
+					text-decoration: underline;
+				}
+			}
+			.button {
+				margin-top: 25px;
+				.btn {
+					width: 100%;
+					-webkit-box-shadow: none!important;
+					//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+					box-shadow: none!important;
+					&:hover {
+						-webkit-box-shadow: none!important;
+						//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+						box-shadow: none!important;
+					}
+				}
+			}
+			.outer-link {
+				display: block;
+				font-size: 16px;
+				font-weight: 400;
+				color: $color_gray;
+				margin-top: 30px;
+				text-align: center;
+				font-family: $primary_font, $primary_font_fallback;
+				a {
+					color: $color_purple_heart;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+		.alt-option {
+			margin: 30px 0;
+			text-align: center;
+			display: inline-block;
+			position: relative;
+			width: 100%;
+			z-index: 1;
+			span {
+				font-size: 15px;
+				background: $white;
+				color: $color_gray;
+				padding: 5px 15px;
+			}
+		}
+		.alt-option::before {
+			position: absolute;
+			left: 0;
+			top: 50%;
+			height: 1px;
+			width: 100%;
+			background: $color_gallery;
+			content: "";
+			z-index: -1;
+		}
+		.socila-login ul li {
+			display: block;
+			margin-bottom: 12px;
+			&:last-child {
+				margin: 0;
+			}
+			a {
+				padding: 15px 20px;
+				text-align: center;
+				border: 1px solid $color_gallery;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 6px;
+				display: block;
+				color: $color_gray;
+				font-size: 15px;
+				&.facebook {
+					&:hover {
+						color: $white;
+						background: $color_azure;
+						border-color: transparent;
+						i {
+							color: $white;
+						}
+					}
+					i {
+						color: $color_azure;
+					}
+				}
+				&.google {
+					&:hover {
+						color: $white;
+						background: $color_punch;
+						border-color: transparent;
+						i {
+							color: $white;
+						}
+					}
+					i {
+						color: $color_punch;
+					}
+				}
+				i {
+					display: inline-block;
+					margin-right: 10px;
+					font-size: 15px;
+					-webkit-transition: all .4s ease;
+					//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+					transition: all .4s ease;
+				}
+			}
+		}
+	}
+}
+.contact-us {
+	position: relative;
+	background-color: $color_alabaster;
+	.contact-head {
+		overflow: hidden;
+		position: relative;
+		z-index: 5;
+	}
+	.title {
+		margin-bottom: 30px;
+	}
+	.contant-inner-title {
+		margin-bottom: 45px;
+		h2 {
+			font-size: 26px;
+			font-weight: 600;
+			margin-bottom: 5px;
+			color: $color_black_pearl;
+			text-transform: capitalize;
+		}
+		p {
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 23px;
+			margin-top: 10px;
+			display: block;
+		}
+	}
+	.single-head {
+		padding: 50px;
+		height: 100%;
+		position: relative;
+		z-index: 5;
+		overflow: hidden;
+		background-color: $white;
+		border: 1px solid $color_gallery;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 6px;
+	}
+	.single-info {
+		text-align: left;
+		margin-bottom: 35px;
+		position: relative;
+		&:last-child {
+			margin: 0;
+		}
+		h3 {
+			font-size: 20px;
+			margin-bottom: 15px;
+		}
+		ul {
+			display: inline-block;
+			li {
+				font-weight: 400;
+				display: block;
+				margin-bottom: 5px;
+				font-size: 14px;
+				color: $color_gray;
+				&:last-child {
+					margin: 0;
+				}
+				a {
+					font-weight: 400;
+					color: $color_oslo_gray;
+					display: inline-block;
+					font-size: 15px;
+					&:hover {
+						color: $color_purple_heart;
+					}
+				}
+			}
+		}
+		.title {
+			margin-bottom: 10px;
+			font-weight: 500;
+			color: $white;
+			font-size: 18px;
+		}
+	}
+	.contact-social {
+		display: block;
+		margin-top: 65px;
+		h5 {
+			color: $color_black_pearl;
+			font-weight: 600;
+			font-size: 18px;
+		}
+		ul li {
+			display: inline-block;
+			margin-right: 6px;
+			&:last-child {
+				margin-right: 0;
+			}
+			a {
+				font-size: 14px;
+				color: $color_dorado;
+				height: 40px;
+				width: 40px;
+				text-align: center;
+				display: block;
+				line-height: 40px;
+				background: $color_alabaster;
+				border: 1px solid $color_gallery;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 50%;
+				position: relative;
+				z-index: 3;
+				&:hover {
+					color: $white;
+					background-color: $color_purple_heart;
+					border-color: transparent;
+				}
+			}
+		}
+	}
+	.form-main {
+		padding: 45px 50px 50px;
+		background: $white;
+		border: 1px solid $color_gallery;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 6px;
+		height: 100%;
+		.form-title {
+			margin-bottom: 30px;
+			h2 {
+				margin-bottom: 20px;
+				font-size: 30px;
+			}
+			p {
+				font-size: 16px;
+			}
+		}
+	}
+	.form {
+		.form-group {
+			margin-bottom: 15px;
+			display: block;
+			input {
+				height: 55px;
+				line-height: 55px;
+				width: 100%;
+				border: 1px solid $color_white_lilac;
+				padding: 0 20px;
+				color: $color_mine_shaft;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 0;
+				font-weight: 400;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 5px;
+			}
+			textarea {
+				height: 180px;
+				width: 100%;
+				border: 1px solid $color_white_lilac;
+				padding: 15px 20px;
+				color: $color_mine_shaft;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 0;
+				resize: none;
+				font-weight: 400;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 5px;
+				resize: vertical;
+			}
+		}
+		.button {
+			margin: 0;
+			.btn {
+				height: 50px;
+				border: none;
+			}
+		}
+	}
+}
+.coming-soon {
+	height: 100vh;
+	text-align: center;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background: $color_alabaster;
+	z-index: 2;
+	.soon-content {
+		text-align: center;
+		.text {
+			margin-bottom: 60px;
+			h2 {
+				font-size: 40px;
+				font-weight: 700;
+				line-height: 52px;
+				color: $color_black_pearl;
+				display: block;
+				margin-bottom: 20px;
+				text-transform: capitalize;
+			}
+			p {
+				color: $color_gray;
+				font-size: 16px;
+			}
+		}
+		.box {
+			background: $white;
+			border: 1px solid $color_gallery;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 6px;
+			width: 100px;
+			height: 100px;
+			margin: 0 5px;
+			display: inline-block;
+			padding-top: 25px;
+			h1 {
+				font-size: 26px;
+				text-align: center;
+				font-weight: 700;
+				margin-bottom: 5px;
+				color: $color_purple_heart;
+			}
+		}
+		h2 {
+			text-align: center;
+			padding-top: 2px;
+			color: $color_black_pearl;
+			font-size: 15px;
+			font-weight: 400;
+		}
+		.alert {
+			display: none;
+		}
+	}
+	.verticle-lines .vlines {
+		width: 3px;
+		height: 100%;
+		background: $color_martini;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		-webkit-transform: scaleY(0);
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scaleY(0);
+		-webkit-transform-origin: top left;
+		//Instead of the line below you could use @include transform-origin($origin-x, $origin-y, $origin-z, $only3d)
+		transform-origin: top left;
+		-webkit-animation-name: lineanim;
+		animation-name: lineanim;
+		-webkit-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+		-webkit-animation-timing-function: cubic-bezier(.785, .135, .15, .86);
+		animation-timing-function: cubic-bezier(.785, .135, .15, .86);
+		-webkit-animation-duration: 3s;
+		animation-duration: 3s;
+		opacity: .05;
+		z-index: -1;
+		&.one {
+			left: 20%;
+			-webkit-animation-delay: 1s;
+			animation-delay: 1s;
+		}
+		&.two {
+			left: 40%;
+			-webkit-animation-delay: 0s;
+			animation-delay: 0s;
+		}
+		&.three {
+			left: 60%;
+			-webkit-animation-delay: 2s;
+			animation-delay: 2s;
+		}
+		&.four {
+			left: 80%;
+			-webkit-animation-delay: 1.5s;
+			animation-delay: 1.5s;
+		}
+	}
+}
+.map-section {
+	background-color: $color_alabaster;
+}

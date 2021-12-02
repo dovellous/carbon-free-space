@@ -1,0 +1,27 @@
+{
+  "name": "enftix-templates",
+  "version": "1.0.0",
+  "description": "Enftix - NFT Marketplace Templates",
+  "main": "index.js",
+  "scripts": {
+    "sass-compile": "sass bootstrap/template-1/assets/scss/res/style.scss bootstrap/template-1/assets/css/main.css",
+    "sass-watch": "sass --watch bootstrap/template-1/assets/scss/res:bootstrap/template-1/assets/css/dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dovellous/enftix-templates.git"
+  },
+  "keywords": [
+    "nfts"
+  ],
+  "author": "@dovellous",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dovellous/enftix-templates/issues"
+  },
+  "homepage": "https://github.com/dovellous/enftix-templates#readme",
+  "dependencies": {
+    "sass": "^1.44.0",
+    "scss-compile": "^0.1.7"
+  }
+}

@@ -1,0 +1,96 @@
+.search-no-results .page-content {
+	margin-top: calc(3 * var(--global--spacing-vertical));
+}
+
+.search-form {
+	margin-top: 60px;
+	background: $white3;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 6px;
+	padding: 30px;
+	padding-right: 45px;
+	&.style2 {
+		padding: 0;
+		padding: 50px;
+		background-color: $white;
+		.heading-title {
+			font-size: 24px;
+			margin-bottom: 8px;
+		}
+		.sub-heding-text {
+			margin-bottom: 40px;
+			font-size: 16px;
+		}
+		.search-input {
+			padding: 0;
+			margin-bottom: 18px;
+		}
+		.btn {
+			margin: 0;
+			&:hover {
+				background-color: $color_black_pearl;
+				color: $white;
+			}
+		}
+	}
+	.search-input {
+		position: relative;
+		padding: 0 8px;
+		input {
+			width: 100%;
+			background: $white;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 6px;
+			border: none;
+			padding: 0 25px;
+			padding-right: 45px;
+			height: 55px;
+			font-size: 15px;
+			border: 1px solid $color_gallery;
+			&:focus {
+				outline: none!important;
+			}
+		}
+		label {
+			position: absolute;
+			right: 25px;
+			top: 50%;
+			-webkit-transform: translateY(-50%);
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: translateY(-50%);
+		}
+		select {
+			width: 100%;
+			background: $white;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 6px;
+			border: 1px solid $color_gallery;
+			padding: 0 25px;
+			height: 55px;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			font-size: 15px;
+			&:focus {
+				outline: none!important;
+			}
+		}
+	}
+	button {
+		width: 100%;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 6px;
+		border: none;
+		padding: 0 25px;
+		height: 55px;
+		margin-left: 5px;
+		i {
+			display: inline-block;
+			margin-right: 5px;
+		}
+		&.btn:hover {
+			background: $white;
+			color: $color_black_pearl;
+		}
+	}
+}
