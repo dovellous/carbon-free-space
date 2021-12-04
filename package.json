@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "sass-compile": "sass bootstrap/template-1/assets/scss/res/style.scss bootstrap/template-1/assets/css/main.css",
-    "sass-watch": "sass --watch bootstrap/template-1/assets/scss/res:bootstrap/template-1/assets/css/dist/"
+    "sass-watch": "sass --watch bootstrap/template-1/assets/scss/res:bootstrap/template-1/assets/css/dist/",
+    "restart-httpd": "brew services restart httpd && /usr/local/opt/httpd/bin/httpd -D FOREGROUND && /usr/local/opt/php/sbin/php-fpm --nodaemonize"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/dovellous/enftix-templates#readme",
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "sass": "^1.44.0",
     "scss-compile": "^0.1.7"
   }

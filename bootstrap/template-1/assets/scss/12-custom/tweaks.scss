@@ -1,3 +1,13 @@
+
+:root {
+
+  /* Font Family */
+  --global--font-primary: var("kanit", --font-headings, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif) !important;
+  --global--font-secondary: var("kanit", --font-base, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif) !important;
+
+
+}
+
 .items-grid .single-grid .content .top-content .rating {
   margin-top: 10px;
   padding-left: 0 !important;
@@ -19,8 +29,12 @@ body{
   font-family: "Kanit"
 }
 
-.items-grid .single-grid .image .author, .navbar-area.sticky{
-  position: fixed;
-  background-color: #ffffffa1;
-  backdrop-filter: blur(12px);
+.items-grid .single-grid .image .author{
+  background-color: #5830df2e;
+  backdrop-filter: blur(5px);
+}
+
+.navbar-area.sticky{
+  background-color: rgba(255, 255, 255, 0.59);
+  backdrop-filter: blur(5px);
 }
