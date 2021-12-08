@@ -1,0 +1,1845 @@
+{
+  "_id": "60990b21b0694f4cc9bebc0c",
+  "menuGroup": "ZIMG1607",
+  "menu": {
+    "items": [
+      {
+        "code": "1",
+        "description": "Value Meal",
+        "price": 0,
+        "department": "Value Meal"
+      },
+      {
+        "code": "2",
+        "description": "Prince Meal",
+        "price": 480,
+        "department": "Value Meal"
+      },
+      {
+        "code": "3",
+        "description": "Queen Meal",
+        "price": 560,
+        "department": "Value Meal"
+      },
+      {
+        "code": "4",
+        "description": "King Meal",
+        "price": 720,
+        "department": "Value Meal"
+      },
+      {
+        "code": "5",
+        "description": "Extra Fried Fillet",
+        "price": 240,
+        "department": "Addons"
+      },
+      {
+        "code": "6",
+        "description": "Simba Fried Meal",
+        "price": 800,
+        "department": "Value Meal"
+      },
+      {
+        "code": "7",
+        "description": "Deleted-Kiddies Meal",
+        "price": 240,
+        "department": "Unknown"
+      },
+      {
+        "code": "8",
+        "description": "Area 1 Delivery Charge",
+        "price": 480,
+        "department": "Delivery Charges"
+      },
+      {
+        "code": "9",
+        "description": "Area 2",
+        "price": 640,
+        "department": "Delivery Charges"
+      },
+      {
+        "code": "10",
+        "description": "Area 3",
+        "price": 800,
+        "department": "Delivery Charges"
+      },
+      {
+        "code": "11",
+        "description": "Area 4",
+        "price": 1600,
+        "department": "Delivery Charges"
+      },
+      {
+        "code": "12",
+        "description": "Mambos Vurger",
+        "price": 560,
+        "department": "Burgers",
+        "addons": [
+          {
+            "code": "3",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "13",
+        "description": "Vegie Wrap",
+        "price": 640,
+        "department": "Burgers"
+      },
+      {
+        "code": "14",
+        "description": "Ugali Beef Stew",
+        "price": 430,
+        "department": "Value Meal"
+      },
+      {
+        "code": "15",
+        "description": "Rice 1PC Grilled Gravy",
+        "price": 460,
+        "department": "Value Meal",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "16",
+        "description": "Staff Cappuccino",
+        "price": 0,
+        "department": "Staff Meals",
+        "addons": [
+          {
+            "code": "2",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "17",
+        "description": "Staff Moccachino",
+        "price": 0,
+        "department": "Staff Meals",
+        "addons": [
+          {
+            "code": "2",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "18",
+        "description": "Staff Black white Coffee",
+        "price": 0,
+        "department": "Staff Meals",
+        "addons": [
+          {
+            "code": "2",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "19",
+        "description": "Staff Expresso",
+        "price": 0,
+        "department": "Staff Meals",
+        "addons": [
+          {
+            "code": "2",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "20",
+        "description": "Staff Tea",
+        "price": 0,
+        "department": "Staff Meals",
+        "addons": [
+          {
+            "code": "2",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "21",
+        "description": "Staff Regular Chips",
+        "price": 0,
+        "department": "Staff Meals",
+        "addons": [
+          {
+            "code": "2",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "22",
+        "description": "Staff Shebo",
+        "price": 0,
+        "department": "Staff Meals",
+        "addons": [
+          {
+            "code": "2",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "23",
+        "description": "Staff Coleslaw",
+        "price": 0,
+        "department": "Staff Meals"
+      },
+      {
+        "code": "24",
+        "description": "Simba Grilled Meal",
+        "price": 800,
+        "department": "Value Meal",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "25",
+        "description": "Extra Cheese",
+        "price": 80,
+        "department": "Addons"
+      },
+      {
+        "code": "26",
+        "description": "Extra Egg",
+        "price": 80,
+        "department": "Addons"
+      },
+      {
+        "code": "27",
+        "description": "Extra Vurger Patty",
+        "price": 0,
+        "department": "Burgers"
+      },
+      {
+        "code": "28",
+        "description": "Extra Grilled Fillet",
+        "price": 240,
+        "department": "Addons",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "29",
+        "description": "Queen Meal 4Spicy wings",
+        "price": 880,
+        "department": "Promotions"
+      },
+      {
+        "code": "30",
+        "description": "Queen Meal 4Dipped Wing",
+        "price": 960,
+        "department": "Promotions"
+      },
+      {
+        "code": "32",
+        "description": "M Burger 2SpicyWingsChip",
+        "price": 1120,
+        "department": "Addons"
+      },
+      {
+        "code": "33",
+        "description": "M Burger2DippedWingsChip",
+        "price": 1120,
+        "department": "Promotions"
+      },
+      {
+        "code": "34",
+        "description": "Mini Veggie Wrap",
+        "price": 400,
+        "department": "Value Meal"
+      },
+      {
+        "code": "101",
+        "description": "Sharing",
+        "price": 0,
+        "department": "Sharing"
+      },
+      {
+        "code": "102",
+        "description": "Royal 4",
+        "price": 960,
+        "department": "Sharing"
+      },
+      {
+        "code": "103",
+        "description": "Royal 6",
+        "price": 1600,
+        "department": "Sharing"
+      },
+      {
+        "code": "104",
+        "description": "Royal 8",
+        "price": 2160,
+        "department": "Sharing"
+      },
+      {
+        "code": "105",
+        "description": "Staff Prince Meal",
+        "price": 0,
+        "department": "Staff Meals",
+        "addons": [
+          {
+            "code": "2",
+            "compulsory": false,
+            "nrOfCalls": 999
+          }
+        ]
+      },
+      {
+        "code": "200",
+        "description": "Mambos Grilled Burger",
+        "price": 560,
+        "department": "Value Meal",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "201",
+        "description": "Burgers",
+        "price": 0,
+        "department": "Burgers"
+      },
+      {
+        "code": "202",
+        "description": "Mambos Fried Burger",
+        "price": 560,
+        "department": "Burgers"
+      },
+      {
+        "code": "203",
+        "description": "Smarties and Bar One",
+        "price": 0,
+        "department": "Unknown"
+      },
+      {
+        "code": "204",
+        "description": "Manny Perriera Burger",
+        "price": 720,
+        "department": "Burgers"
+      },
+      {
+        "code": "205",
+        "description": "Wrap Grilled Fillet",
+        "price": 560,
+        "department": "Burgers",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "206",
+        "description": "Wrap Fried Fillet",
+        "price": 560,
+        "department": "Burgers"
+      },
+      {
+        "code": "208",
+        "description": "Mini Wrap",
+        "price": 320,
+        "department": "Burgers"
+      },
+      {
+        "code": "301",
+        "description": "Grill",
+        "price": 0,
+        "department": "Grill"
+      },
+      {
+        "code": "302",
+        "description": "Qtr Grilled Chicken",
+        "price": 640,
+        "department": "Grill",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "303",
+        "description": "Half Grilled Chicken",
+        "price": 1280,
+        "department": "Grill",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "304",
+        "description": "Full Grilled Chicken",
+        "price": 2560,
+        "department": "Grill",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "305",
+        "description": "Half Grilled Family Pack",
+        "price": 1920,
+        "department": "Grill",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "306",
+        "description": "Full Grilled Family Pack",
+        "price": 3360,
+        "department": "Grill",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "307",
+        "description": "Qtr Chicken Chips",
+        "price": 800,
+        "department": "Grill",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "308",
+        "description": "Half Chicken Chips",
+        "price": 1440,
+        "department": "Grill",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "309",
+        "description": "Full Chicken 2 Reg Chips",
+        "price": 2880,
+        "department": "Grill",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "310",
+        "description": "Lemon and Herb",
+        "price": 0,
+        "department": "Unknown"
+      },
+      {
+        "code": "311",
+        "description": "Mpole Mpole",
+        "price": 0,
+        "department": "Unknown"
+      },
+      {
+        "code": "312",
+        "description": "AMOTO",
+        "price": 0,
+        "department": "Unknown"
+      },
+      {
+        "code": "313",
+        "description": "Smokey BBQ",
+        "price": 0,
+        "department": "Unknown"
+      },
+      {
+        "code": "314",
+        "description": "No Sauce",
+        "price": 0,
+        "department": "Unknown"
+      },
+      {
+        "code": "401",
+        "description": "Wings",
+        "price": 0,
+        "department": "Wings"
+      },
+      {
+        "code": "402",
+        "description": "4 Spicy Wings",
+        "price": 480,
+        "department": "Wings"
+      },
+      {
+        "code": "403",
+        "description": "8 Spicy Wings",
+        "price": 880,
+        "department": "Wings"
+      },
+      {
+        "code": "404",
+        "description": "4 Dipped Wings",
+        "price": 560,
+        "department": "Wings"
+      },
+      {
+        "code": "405",
+        "description": "8 Dipped Wings",
+        "price": 960,
+        "department": "Wings"
+      },
+      {
+        "code": "406",
+        "description": "UGALI Qtr Chicken Shebo",
+        "price": 800,
+        "department": "Sadza",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "407",
+        "description": "Queen Meal 2Spicy Wings",
+        "price": 880,
+        "department": "Promotions"
+      },
+      {
+        "code": "408",
+        "description": "Queen Meal 2Dipped Wings",
+        "price": 960,
+        "department": "Promotions"
+      },
+      {
+        "code": "409",
+        "description": "4 Full Grilled Wings",
+        "price": 880,
+        "department": "Grill",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "410",
+        "description": "6 Full Grilled Wings",
+        "price": 1280,
+        "department": "Grill",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "411",
+        "description": "8 Full Grilled Wings",
+        "price": 1680,
+        "department": "Grill",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "412",
+        "description": "10 Full Grilled Wings",
+        "price": 2160,
+        "department": "Grill",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "413",
+        "description": "4 GrilledDipped Winglet",
+        "price": 560,
+        "department": "Grill"
+      },
+      {
+        "code": "414",
+        "description": "8 Grilled Dipped Winglet",
+        "price": 960,
+        "department": "Grill"
+      },
+      {
+        "code": "430",
+        "description": "Ugali 4 Spicy Wings Sheb",
+        "price": 720,
+        "department": "Sadza"
+      },
+      {
+        "code": "431",
+        "description": "Ugali 4 Dipped Wings Col",
+        "price": 800,
+        "department": "Sadza"
+      },
+      {
+        "code": "432",
+        "description": "Rice and livers",
+        "price": 640,
+        "department": "Value Meal"
+      },
+      {
+        "code": "433",
+        "description": "Rice n Fried Chicken Str",
+        "price": 720,
+        "department": "Value Meal",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "434",
+        "description": "Rice n Grilled Chicken S",
+        "price": 720,
+        "department": "Value Meal",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "435",
+        "description": "Monarch Platter for 2",
+        "price": 2720,
+        "department": "Sharing",
+        "addons": [
+          {
+            "code": "4",
+            "compulsory": true,
+            "nrOfCalls": 2
+          }
+        ]
+      },
+      {
+        "code": "436",
+        "description": "Spear Sharing Platter 4",
+        "price": 4480,
+        "department": "Sharing",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          },
+          {
+            "code": "4",
+            "compulsory": true,
+            "nrOfCalls": 2
+          }
+        ]
+      },
+      {
+        "code": "437",
+        "description": "Crown Platter for 6",
+        "price": 4800,
+        "department": "Sharing",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          },
+          {
+            "code": "4",
+            "compulsory": true,
+            "nrOfCalls": 2
+          }
+        ]
+      },
+      {
+        "code": "438",
+        "description": "Suprem Queen Platter 12",
+        "price": 10560,
+        "department": "Sharing",
+        "addons": [
+          {
+            "code": "4",
+            "compulsory": true,
+            "nrOfCalls": 4
+          },
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          },
+          {
+            "code": "5",
+            "compulsory": true,
+            "nrOfCalls": 4
+          }
+        ]
+      },
+      {
+        "code": "439",
+        "description": "Rice & Beef",
+        "price": 360,
+        "department": "Value Meal"
+      },
+      {
+        "code": "440",
+        "description": "Chips & Beef",
+        "price": 360,
+        "department": "Value Meal"
+      },
+      {
+        "code": "501",
+        "description": "Sadza",
+        "price": 0,
+        "department": "Sadza"
+      },
+      {
+        "code": "502",
+        "description": "Ugali 2PC Shebo Mix",
+        "price": 480,
+        "department": "Sadza"
+      },
+      {
+        "code": "503",
+        "description": "Chicken Mayo Sandwich",
+        "price": 320,
+        "department": "BREAKFAST"
+      },
+      {
+        "code": "504",
+        "description": "Ugali 1PC Shebo Mix",
+        "price": 400,
+        "department": "Sadza"
+      },
+      {
+        "code": "505",
+        "description": "Ugali 1pc fried n kale",
+        "price": 430,
+        "department": "Value Meal",
+        "addons": [
+          {
+            "code": "2",
+            "compulsory": false,
+            "nrOfCalls": 999
+          }
+        ]
+      },
+      {
+        "code": "506",
+        "description": "Ugali 2PC Grilled Kale",
+        "price": 480,
+        "department": "Value Meal",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "507",
+        "description": "Ugali 1PC Grilled Kale",
+        "price": 400,
+        "department": "Value Meal"
+      },
+      {
+        "code": "519",
+        "description": "Cheese Burger",
+        "price": 640,
+        "department": "Burgers",
+        "addons": [
+          {
+            "code": "3",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "601",
+        "description": "Addons",
+        "price": 0,
+        "department": "Addons"
+      },
+      {
+        "code": "602",
+        "description": "Regular Chips",
+        "price": 240,
+        "department": "Addons"
+      },
+      {
+        "code": "603",
+        "description": "Chicken Piece",
+        "price": 240,
+        "department": "Addons"
+      },
+      {
+        "code": "604",
+        "description": "Regular Icecream",
+        "price": 80,
+        "department": "Addons"
+      },
+      {
+        "code": "605",
+        "description": "Cheese Slice",
+        "price": 80,
+        "department": "Addons"
+      },
+      {
+        "code": "606",
+        "description": "Egg",
+        "price": 120,
+        "department": "Addons"
+      },
+      {
+        "code": "607",
+        "description": "Shebo Mix",
+        "price": 160,
+        "department": "Salads"
+      },
+      {
+        "code": "608",
+        "description": "Green Salad",
+        "price": 160,
+        "department": "Salads"
+      },
+      {
+        "code": "609",
+        "description": "Coleslaw",
+        "price": 160,
+        "department": "Salads"
+      },
+      {
+        "code": "610",
+        "description": "Plain Ugali Sadza",
+        "price": 160,
+        "department": "Addons"
+      },
+      {
+        "code": "611",
+        "description": "Wrap Chips 2Spicy Wings",
+        "price": 880,
+        "department": "Promotions"
+      },
+      {
+        "code": "612",
+        "description": "Large Icecream",
+        "price": 160,
+        "department": "Addons"
+      },
+      {
+        "code": "614",
+        "description": "Wrap Chips 2Dipped Wings",
+        "price": 960,
+        "department": "Promotions"
+      },
+      {
+        "code": "615",
+        "description": "Egg Roll",
+        "price": 240,
+        "department": "Addons"
+      },
+      {
+        "code": "616",
+        "description": "Cheese Roll",
+        "price": 240,
+        "department": "Addons"
+      },
+      {
+        "code": "617",
+        "description": "Mini Roll",
+        "price": 80,
+        "department": "Addons"
+      },
+      {
+        "code": "618",
+        "description": "Rice 2PC Grilled Gravy",
+        "price": 480,
+        "department": "Value Meal",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "702",
+        "description": "Discounted Prince Meal",
+        "price": 430,
+        "department": "Value Meal"
+      },
+      {
+        "code": "703",
+        "description": "Cheese n Tomato Sandwich",
+        "price": 160,
+        "department": "BREAKFAST"
+      },
+      {
+        "code": "802",
+        "description": "Staff Ugali 1PC SheboMix",
+        "price": 0,
+        "department": "Staff Meals",
+        "addons": [
+          {
+            "code": "2",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "803",
+        "description": "Staff Ugali 2PC SheboMix",
+        "price": 0,
+        "department": "Staff Meals",
+        "addons": [
+          {
+            "code": "2",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "804",
+        "description": "Staff Queen Meal",
+        "price": 0,
+        "department": "Staff Meals"
+      },
+      {
+        "code": "805",
+        "description": "Staff ugali 1pc kale",
+        "price": 0,
+        "department": "Value Meal"
+      },
+      {
+        "code": "806",
+        "description": "Staff Ugali 2PC kale",
+        "price": 0,
+        "department": "Value Meal"
+      },
+      {
+        "code": "1500",
+        "description": "Large Milkshake",
+        "price": 0,
+        "department": "BEVERAGES",
+        "addons": [
+          {
+            "code": "6",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "1501",
+        "description": "BEVERAGES",
+        "price": 0,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1502",
+        "description": "Delta 330ML",
+        "price": 150,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1503",
+        "description": "Water",
+        "price": 80,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1504",
+        "description": "Pepsi Can",
+        "price": 75,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1505",
+        "description": "Pepsi Pet",
+        "price": 75,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1506",
+        "description": "Delta Pet 500ML",
+        "price": 240,
+        "department": "Delta"
+      },
+      {
+        "code": "1507",
+        "description": "Regular Milkshake",
+        "price": 480,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1508",
+        "description": "Minute Maid",
+        "price": 225,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1509",
+        "description": "Delta Light Zero 330ml",
+        "price": 225,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1510",
+        "description": "Tea",
+        "price": 160,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1511",
+        "description": "Hot Chocolate",
+        "price": 240,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1512",
+        "description": "Cappuccino",
+        "price": 240,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1513",
+        "description": "Expresso",
+        "price": 240,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1514",
+        "description": "Mocaccino",
+        "price": 240,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1515",
+        "description": "White Coffee",
+        "price": 160,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1516",
+        "description": "Carrier Bag",
+        "price": 40,
+        "department": "Addons"
+      },
+      {
+        "code": "1517",
+        "description": "Cascade 500ml",
+        "price": 160,
+        "department": "Cascade"
+      },
+      {
+        "code": "1518",
+        "description": "Double Thick Milkshake",
+        "price": 640,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1519",
+        "description": "Delta 300ML Bottled",
+        "price": 120,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1520",
+        "description": "Delta 350ML Pet",
+        "price": 120,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1521",
+        "description": "Black Coffee",
+        "price": 160,
+        "department": "Unknown"
+      },
+      {
+        "code": "1522",
+        "description": "Egg Sandwich",
+        "price": 160,
+        "department": "Promotions"
+      },
+      {
+        "code": "1525",
+        "description": "Mint Milkshake flavour",
+        "price": 0,
+        "department": "Addons"
+      },
+      {
+        "code": "1526",
+        "description": "Strawberry Milkshake fla",
+        "price": 0,
+        "department": "Addons"
+      },
+      {
+        "code": "1527",
+        "description": "Banana Milkshake flavour",
+        "price": 0,
+        "department": "Addons"
+      },
+      {
+        "code": "1528",
+        "description": "Chocolate Milkshake Flav",
+        "price": 0,
+        "department": "Addons"
+      },
+      {
+        "code": "1529",
+        "description": "Bubblegum Milkshake flav",
+        "price": 0,
+        "department": "Addons"
+      },
+      {
+        "code": "1530",
+        "description": "Oreo Milkshake Flavour",
+        "price": 0,
+        "department": "Addons"
+      },
+      {
+        "code": "1531",
+        "description": "Lime Milkshake Flavour",
+        "price": 0,
+        "department": "Addons"
+      },
+      {
+        "code": "1532",
+        "description": "Cherry Milkshake Flavour",
+        "price": 0,
+        "department": "Addons"
+      },
+      {
+        "code": "1533",
+        "description": "Barone Milkshake Flavour",
+        "price": 0,
+        "department": "Addons"
+      },
+      {
+        "code": "1534",
+        "description": "Coffee Milkshake Flavour",
+        "price": 0,
+        "department": "Addons"
+      },
+      {
+        "code": "1535",
+        "description": "Vanilla Milkshake Flavou",
+        "price": 0,
+        "department": "Addons"
+      },
+      {
+        "code": "1536",
+        "description": "Tropika 200ML",
+        "price": 160,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1537",
+        "description": "Krush 100pc UHT 200ML",
+        "price": 160,
+        "department": "Krush"
+      },
+      {
+        "code": "1538",
+        "description": "Krush 1LITRE",
+        "price": 480,
+        "department": "Krush"
+      },
+      {
+        "code": "1539",
+        "description": "Pepsi Can 440ML",
+        "price": 150,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1540",
+        "description": "Cascade 1L",
+        "price": 320,
+        "department": "Cascade"
+      },
+      {
+        "code": "1541",
+        "description": "Tropika Eazy Assorted 1L",
+        "price": 480,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1542",
+        "description": "Daima Fruit Juice 500ML",
+        "price": 240,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "1543",
+        "description": "Krush Cranberry 1LTR",
+        "price": 560,
+        "department": "Krush"
+      },
+      {
+        "code": "1600",
+        "description": "2PC Grilled Chicken Chip",
+        "price": 480,
+        "department": "Value Meal",
+        "addons": [
+          {
+            "code": "1",
+            "compulsory": true,
+            "nrOfCalls": 1
+          }
+        ]
+      },
+      {
+        "code": "1601",
+        "description": "2 Spicy Wings Chips",
+        "price": 480,
+        "department": "Unknown"
+      },
+      {
+        "code": "1602",
+        "description": "CHICKEN STRIPS",
+        "price": 240,
+        "department": "Value Meal"
+      },
+      {
+        "code": "1603",
+        "description": "BEEF AND CHIPS",
+        "price": 430,
+        "department": "Value Meal"
+      },
+      {
+        "code": "1604",
+        "description": "Rice and beef stew",
+        "price": 0,
+        "department": "Value Meal"
+      },
+      {
+        "code": "2801",
+        "description": "Bar Instructions",
+        "price": 0,
+        "department": "Bar Instructions"
+      },
+      {
+        "code": "2901",
+        "description": "Kitchen Instructions",
+        "price": 0,
+        "department": "Kitchen Instructions"
+      },
+      {
+        "code": "3000",
+        "description": "Meal Box Packaging",
+        "price": 0,
+        "department": "Kitchen Instructions"
+      },
+      {
+        "code": "3001",
+        "description": "Serving Instructions",
+        "price": 0,
+        "department": "Unknown"
+      },
+      {
+        "code": "3002",
+        "description": "Quarter Pack",
+        "price": 0,
+        "department": "Kitchen Instructions"
+      },
+      {
+        "code": "3003",
+        "description": "Coffee Cups",
+        "price": 0,
+        "department": "Kitchen Instructions"
+      },
+      {
+        "code": "3004",
+        "description": "Burger Box",
+        "price": 0,
+        "department": "Kitchen Instructions"
+      },
+      {
+        "code": "3006",
+        "description": "Salad Tub",
+        "price": 0,
+        "department": "Kitchen Instructions"
+      },
+      {
+        "code": "3007",
+        "description": "Chip Scoop",
+        "price": 0,
+        "department": "Kitchen Instructions"
+      },
+      {
+        "code": "3008",
+        "description": "Half Pack",
+        "price": 0,
+        "department": "Kitchen Instructions"
+      },
+      {
+        "code": "3009",
+        "description": "Spicy Njano Rice",
+        "price": 320,
+        "department": "Value Meal"
+      },
+      {
+        "code": "3010",
+        "description": "Livers",
+        "price": 400,
+        "department": "Addons"
+      },
+      {
+        "code": "3011",
+        "description": "Greek Salad",
+        "price": 480,
+        "department": "Salads"
+      },
+      {
+        "code": "3012",
+        "description": "Chicken Salad",
+        "price": 640,
+        "department": "Salads"
+      },
+      {
+        "code": "3013",
+        "description": "3 Bean Salad",
+        "price": 320,
+        "department": "Salads"
+      },
+      {
+        "code": "3014",
+        "description": "Garlic Mash",
+        "price": 320,
+        "department": "Addons"
+      },
+      {
+        "code": "3015",
+        "description": "Empty Oil Buckets",
+        "price": 160,
+        "department": "Unknown"
+      },
+      {
+        "code": "3016",
+        "description": "DELTA COKE 330MLS",
+        "price": 160,
+        "department": "Delta"
+      },
+      {
+        "code": "3017",
+        "description": "DELTA COKE ZERO 330MLS",
+        "price": 240,
+        "department": "Delta"
+      },
+      {
+        "code": "3018",
+        "description": "DELTA SPRITE 330MLS",
+        "price": 160,
+        "department": "Delta"
+      },
+      {
+        "code": "3019",
+        "description": "DELTA FANTA ORANGE 330ML",
+        "price": 160,
+        "department": "Delta"
+      },
+      {
+        "code": "3020",
+        "description": "DELTA FANTA GRAPE 330MLS",
+        "price": 160,
+        "department": "Delta"
+      },
+      {
+        "code": "3021",
+        "description": "DELTA PINENUT 330MLS",
+        "price": 160,
+        "department": "Delta"
+      },
+      {
+        "code": "3022",
+        "description": "DELTA STONEY GINGER",
+        "price": 160,
+        "department": "Delta"
+      },
+      {
+        "code": "3023",
+        "description": "PEPSI PET 500ML",
+        "price": 80,
+        "department": "Pepsi"
+      },
+      {
+        "code": "3024",
+        "description": "PEPSI  LIGHT 500MLS",
+        "price": 80,
+        "department": "Pepsi"
+      },
+      {
+        "code": "3025",
+        "description": "MIRINDA ORANGE 500ML",
+        "price": 80,
+        "department": "Pepsi"
+      },
+      {
+        "code": "3026",
+        "description": "MIRINDA FRUITY 500 MLS",
+        "price": 80,
+        "department": "Pepsi"
+      },
+      {
+        "code": "3027",
+        "description": "MIRINDA PINE APPLE 500ML",
+        "price": 80,
+        "department": "Pepsi"
+      },
+      {
+        "code": "3028",
+        "description": "MIRINDA GREENAPPLE 500ML",
+        "price": 80,
+        "department": "Pepsi"
+      },
+      {
+        "code": "3029",
+        "description": "MOUNTAIN DEW 500MLS",
+        "price": 80,
+        "department": "Pepsi"
+      },
+      {
+        "code": "3030",
+        "description": "7 UP 500MLS",
+        "price": 80,
+        "department": "Pepsi"
+      },
+      {
+        "code": "3031",
+        "description": "MM DELIGHT GUAVA 400MLS",
+        "price": 240,
+        "department": "Minute maid"
+      },
+      {
+        "code": "3032",
+        "description": "MM DELIGHT ORANGE 400MLS",
+        "price": 240,
+        "department": "Minute maid"
+      },
+      {
+        "code": "3033",
+        "description": "MM REF ORANGEJUICE 400ML",
+        "price": 240,
+        "department": "Minute maid"
+      },
+      {
+        "code": "3034",
+        "description": "MM REFRESH LEMON 400ML",
+        "price": 240,
+        "department": "Minute maid"
+      },
+      {
+        "code": "3035",
+        "description": "MM REFRESH BERRY 400MLS",
+        "price": 240,
+        "department": "Minute maid"
+      },
+      {
+        "code": "3036",
+        "description": "MM DELIGHT TROPICAL 400M",
+        "price": 240,
+        "department": "Minute maid"
+      },
+      {
+        "code": "3037",
+        "description": "MM APPLE GRAPE 400ML",
+        "price": 240,
+        "department": "Minute maid"
+      },
+      {
+        "code": "3038",
+        "description": "DELTA CHERRY PLUM 330ML",
+        "price": 160,
+        "department": "Delta"
+      },
+      {
+        "code": "3039",
+        "description": "DELTA  CREAM SODA 330ML",
+        "price": 160,
+        "department": "BEVERAGES"
+      },
+      {
+        "code": "3890",
+        "description": "CASCADE",
+        "price": 0,
+        "department": "CASCADE"
+      },
+      {
+        "code": "3891",
+        "description": "Minute maid",
+        "price": 0,
+        "department": "Minute maid"
+      },
+      {
+        "code": "3892",
+        "description": "Krush",
+        "price": 0,
+        "department": "Krush"
+      },
+      {
+        "code": "3893",
+        "description": "Cascade",
+        "price": 0,
+        "department": "Cascade"
+      },
+      {
+        "code": "3894",
+        "description": "Delta",
+        "price": 0,
+        "department": "Delta"
+      },
+      {
+        "code": "3895",
+        "description": "Pepsi",
+        "price": 0,
+        "department": "Pepsi"
+      },
+      {
+        "code": "3896",
+        "description": "Salads",
+        "price": 0,
+        "department": "Salads"
+      },
+      {
+        "code": "3897",
+        "description": "Delivery Charges",
+        "price": 0,
+        "department": "Delivery Charges"
+      },
+      {
+        "code": "3898",
+        "description": "BREAKFAST",
+        "price": 0,
+        "department": "BREAKFAST"
+      },
+      {
+        "code": "3899",
+        "description": "Staff Meals",
+        "price": 0,
+        "department": "Staff Meals"
+      },
+      {
+        "code": "3900",
+        "description": "Promotions",
+        "price": 0,
+        "department": "Promotions"
+      }
+    ],
+    "addons": [
+      {
+        "code": "1",
+        "description": "Chicken Options",
+        "items": [
+          {
+            "code": "311",
+            "description": "Mpole Mpole",
+            "price": 0
+          },
+          {
+            "code": "312",
+            "description": "AMOTO",
+            "price": 0
+          },
+          {
+            "code": "313",
+            "description": "Smokey BBQ",
+            "price": 0
+          },
+          {
+            "code": "310",
+            "description": "Lemon and Herb",
+            "price": 0
+          },
+          {
+            "code": "314",
+            "description": "No Sauce",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "code": "2",
+        "description": "Packaging",
+        "items": [
+          {
+            "code": "3000",
+            "description": "Meal Box Packaging",
+            "price": 0
+          },
+          {
+            "code": "3002",
+            "description": "Quarter Pack",
+            "price": 0
+          },
+          {
+            "code": "3003",
+            "description": "Coffee Cups",
+            "price": 0
+          },
+          {
+            "code": "3004",
+            "description": "Burger Box",
+            "price": 0
+          },
+          {
+            "code": "3007",
+            "description": "Chip Scoop",
+            "price": 0
+          },
+          {
+            "code": "3006",
+            "description": "Salad Tub",
+            "price": 0
+          },
+          {
+            "code": "3008",
+            "description": "Half Pack",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "code": "3",
+        "description": "Burger Option",
+        "items": [
+          {
+            "code": "5",
+            "description": "Extra Fried Fillet",
+            "price": 240
+          },
+          {
+            "code": "25",
+            "description": "Extra Cheese",
+            "price": 80
+          },
+          {
+            "code": "26",
+            "description": "Extra Egg",
+            "price": 80
+          },
+          {
+            "code": "27",
+            "description": "Extra Vurger Patty",
+            "price": 0
+          }
+        ]
+      },
+      {
+        "code": "4",
+        "description": "Sides",
+        "items": [
+          {
+            "code": "602",
+            "description": "Regular Chips",
+            "price": 240
+          },
+          {
+            "code": "608",
+            "description": "Green Salad",
+            "price": 160
+          },
+          {
+            "code": "610",
+            "description": "Plain Ugali Sadza",
+            "price": 160
+          },
+          {
+            "code": "3011",
+            "description": "Greek Salad",
+            "price": 480
+          },
+          {
+            "code": "3012",
+            "description": "Chicken Salad",
+            "price": 640
+          },
+          {
+            "code": "3013",
+            "description": "3 Bean Salad",
+            "price": 320
+          },
+          {
+            "code": "3014",
+            "description": "Garlic Mash",
+            "price": 320
+          },
+          {
+            "code": "3009",
+            "description": "Spicy Njano Rice",
+            "price": 320
+          }
+        ]
+      },
+      {
+        "code": "5",
+        "description": "Salads",
+        "items": [
+          {
+            "code": "3011",
+            "description": "Greek Salad",
+            "price": 480
+          },
+          {
+            "code": "3012",
+            "description": "Chicken Salad",
+            "price": 640
+          },
+          {
+            "code": "3013",
+            "description": "3 Bean Salad",
+            "price": 320
+          },
+          {
+            "code": "609",
+            "description": "Coleslaw",
+            "price": 160
+          }
+        ]
+      },
+      {
+        "code": "6",
+        "description": "Milkshake Flavours",
+        "items": [
+          {
+            "code": "1525",
+            "description": "Mint Milkshake flavour",
+            "price": 0
+          },
+          {
+            "code": "1526",
+            "description": "Strawberry Milkshake fla",
+            "price": 0
+          },
+          {
+            "code": "1527",
+            "description": "Banana Milkshake flavour",
+            "price": 0
+          },
+          {
+            "code": "1528",
+            "description": "Chocolate Milkshake Flav",
+            "price": 0
+          },
+          {
+            "code": "1529",
+            "description": "Bubblegum Milkshake flav",
+            "price": 0
+          },
+          {
+            "code": "1530",
+            "description": "Oreo Milkshake Flavour",
+            "price": 0
+          },
+          {
+            "code": "1531",
+            "description": "Lime Milkshake Flavour",
+            "price": 0
+          },
+          {
+            "code": "1532",
+            "description": "Cherry Milkshake Flavour",
+            "price": 0
+          },
+          {
+            "code": "1533",
+            "description": "Barone Milkshake Flavour",
+            "price": 0
+          },
+          {
+            "code": "1534",
+            "description": "Coffee Milkshake Flavour",
+            "price": 0
+          },
+          {
+            "code": "1535",
+            "description": "Vanilla Milkshake Flavou",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  "lastUpdate": "2021-08-16T16:30:12.024Z"
+}

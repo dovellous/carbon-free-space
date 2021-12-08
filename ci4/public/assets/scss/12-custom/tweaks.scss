@@ -1,0 +1,40 @@
+
+:root {
+
+  /* Font Family */
+  --global--font-primary: var("kanit", --font-headings, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif) !important;
+  --global--font-secondary: var("kanit", --font-base, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif) !important;
+
+
+}
+
+.items-grid .single-grid .content .top-content .rating {
+  margin-top: 10px;
+  padding-left: 0 !important;
+}
+
+.items-grid .single-grid .content .top-content .info-list {
+  margin-top: 10px;
+  overflow: hidden;
+  padding-left: 0 !important;
+}
+
+@media (min-width: 1400px){
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 85vw;
+  }
+}
+
+body{
+  font-family: "Kanit"
+}
+
+.items-grid .single-grid .image .author{
+  background-color: #5830df2e;
+  backdrop-filter: blur(5px);
+}
+
+.navbar-area.sticky{
+  background-color: rgba(255, 255, 255, 0.59);
+  backdrop-filter: blur(5px);
+}

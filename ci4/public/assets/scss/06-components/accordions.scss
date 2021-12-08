@@ -1,0 +1,56 @@
+
+.accordion-item {
+  margin-bottom: 20px;
+  .accordion-button {
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    border: none;
+    border: 1px solid $color_gallery;
+    span {
+      float: left;
+    }
+    i {
+      float: right;
+      font-size: 13px;
+      -webkit-transition: all .3s ease;
+      //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+      transition: all .3s ease;
+    }
+  }
+}
+.accordion-button::after {
+  display: none;
+}
+.accordion-collapse {
+  border: none;
+}
+.accordion-body {
+  border: 1px solid $color_gallery;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 0 0 5px 5px;
+  padding: 30px 20px;
+  p {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
+.accordion-button:not(.collapsed) {
+  color: $white;
+  background-color: $color_purple_heart;
+  border-color: transparent;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 5px 5px 0 0;
+  i::before {
+    content: "\eb2c";
+    font-family: $line_icons_font;
+  }
+}

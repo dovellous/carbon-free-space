@@ -1,0 +1,171 @@
+2,Prince Meal, 2.50 ,1
+3,Queen Meal, 3.00 ,1
+4,King Meal, 4.50 ,1
+5,Extra Fried Fillet, 1.50 ,7
+6,Simba Fried Fillet, 5.00 ,1
+7,Kiddies Meal, 1.50 ,1
+8,Area 1 Delivery, 3.00 ,11
+9,Area 2 Delivery, 4.00 ,11
+10,Area 3 Delivery, 5.00 ,11
+11,Area 4 Delivery, 10.00 ,11
+12,Mambos Vurger, 3.50 ,3
+13,Vegie Pie, 4.00 ,3
+14,Ugali Beef Stew, 2.65 ,1
+15,Rice 1Piece Grilled Gravy, 2.87 ,1
+16,Staff Cappuccino, 0.00   ,9
+17,Staff Moccaccino, 0.00   ,9
+18,Staff Black and White Coffee, 0.00   ,9
+19,Staff Expresso, 0.00   ,9
+20,Staff Tea, 0.00   ,9
+21,Staff Regular Chips, 0.00   ,9
+22,Staff Shebo, 0.00   ,9
+23,Staff Coleslaw, 0.00   ,9
+24,Staff Simba Grilled Meal, 0.00   ,9
+25,Extra Cheese, 0.50 ,7
+26,Extra Egg, 0.50 ,7
+27,Extra Vurger Patty, 0.00   ,3
+28,Extra Grilled Fillet, 1.50 ,7
+29,"Queen Meal, 4 Spicy Wings", 5.50 ,8
+30,"Queen Meal, 4 Dipped Wings", 6.00 ,8
+32,"Mambos Burger, 2 Spicy Wings, Chips", 7.00 ,8
+33,"Mambos Burger, 2 Dipped Wings, Chips", 7.00 ,8
+34,Mini Vegie Wrap, 2.50 ,1
+102,Royal 4, 6.00 ,2
+103,Royal 6, 10.00 ,2
+104,Royal 8, 13.50 ,2
+105,Staff Prince Meal, 0.00   ,9
+200,Mambos Grilled Burger, 3.50 ,1
+202,Mambos Fried Burger, 3.50 ,3
+203,Smarties and Bar One, 0.00   ,1
+204,Mann Perriera Burger, 4.50 ,3
+205,Wrap Grilled Fillet, 3.50 ,3
+206,Wrap Fried Fillet, 3.50 ,3
+208,Mini Wrap, 2.00 ,3
+302,Quarter Grilled Chicken, 4.00 ,4
+303,Half Grilled Chicken, 8.00 ,4
+304,Full Grilled family Pack, 16.00 ,4
+305,Half Grilled Family Pack, 12.00 ,4
+306,Full Grilled Family Pack, 21.00 ,4
+307,Quarter Chicken and Chips, 5.00 ,4
+308,Half Chicken and Chips, 9.00 ,4
+309,Full Chicken and Regular Chips, 18.00 ,4
+310,Lemon and Herb, 0.00   ,4
+311,Mpole Mpole, 0.00   ,4
+312,AMOTO, 0.00   ,4
+313,Smokey BBQ, 0.00   ,4
+314,No Sauce, 0.00   ,1
+402,4 Spicy Wings, 3.00 ,5
+403,8 Spicy Wings, 5.50 ,5
+404,4 Dipped Wings, 3.50 ,5
+405,8 Dipped Wings, 6.00 ,5
+406,"Ugali, Quarter Chicken, Shebo Mix", 5.00 ,6
+407,"Queen Meal, 2 Spicy Wings", 5.50 ,8
+408,"Queen Meal, 2 Dipped Wings", 6.00 ,8
+409,4 Full Grilled Wings, 5.50 ,4
+410,6 Full Grilled Wings, 8.00 ,4
+411,8 Full Grilled Wings, 10.50 ,4
+412,10 Full Grilled Wings, 13.50 ,4
+413,4 Dipped Winglet, 3.50 ,4
+414,8 Dipped Winglet, 6.00 ,4
+430,"Ugali, 4 Spicy Wings, Shebo Mix", 4.50 ,6
+431,"Ugali, 4 Dipped Wings, Coleslaw Salad", 5.00 ,6
+432,Rice and Livers, 4.00 ,1
+433,"Rice, Fired Chicken and Chips", 4.50 ,1
+434,"Rice, Grilled Chicken and Chips", 4.50 ,1
+435,Monarch Platter for 2, 17.00 ,2
+436,Spear Sharing Platter for 4, 28.00 ,2
+437,Crown Platter for 6, 30.00 ,2
+438,Supreme Queen Platter for 12, 66.00 ,2
+502,"Ugali 2Piece, Shebo Mix", 3.00 ,6
+503,Chicken Mayo Sandwich, 2.00 ,10
+504,"Ugali, 1Piece, Shebo mix", 2.50 ,6
+505,Staff Ugali 1Piece, 0.00   ,9
+506,"Ugali, 2Piece, Grilled Kale", 3.00 ,1
+507,"Ugali, 1Piece, Grilled Kale", 2.50 ,1
+519,Delta Can 440ml, 0.00   ,16
+602,Regular Chips, 1.50 ,7
+603,Chicken Piece, 1.50 ,7
+604,Regular Ice Cream, 0.50 ,7
+605,Cheese Slice, 0.50 ,7
+606,Egg, 0.50 ,7
+607,Shebo Mix, 1.00 ,10
+608,Green Salad, 1.00 ,10
+609,Coleslaw Salad, 1.00 ,10
+610,Plain Ugali Sadza, 1.00 ,7
+611,"Wrap Chips, 2 Dipped Wings", 5.50 ,8
+612,Large Ice Cream, 1.00 ,7
+614,"Wrap, Chips, 2 Dipped Wings", 6.00 ,8
+615,Egg Roll, 1.50 ,7
+616,Cheese Roll, 1.50 ,7
+617,Mini Roll, 0.50 ,7
+618,"Rice, 2Piece, Grilled Gravy", 3.00 ,1
+702,Disounted Prince Meal, 2.65 ,1
+703,Cheese and Tomato Sandwich, 1.00 ,10
+802,"Staff, Ugali, 1Piece, Shebo Mix", 0.00   ,9
+803,"Staff, Ugali, 2Piece, Shebo Mix", 0.00   ,9
+804,Staff Queen Meal, 0.00   ,9
+1500,Large Milkshake, 0.00   ,16
+1502,Delta Can 330ml, 1.00 ,16
+1503,Water, 0.50 ,16
+1504,Pepsi Can, 0.50 ,16
+1505,Pepsi Pet, 0.50 ,16
+1506,Delta Pet 500ml, 1.50 ,16
+1507,Regular Milkshare, 3.00 ,16
+1508,Minute Maid, 1.50 ,16
+1509,Delta Light Zero 300ml, 1.50 ,16
+1510,Tea, 1.00 ,16
+1511,Hot Chocolate, 1.50 ,16
+1512,Cappaccino, 1.50 ,16
+1513,Express, 1.50 ,16
+1514,Mocaccino, 1.50 ,16
+1515,White Coffee, 1.00 ,16
+1516,Carrier Bag, 0.25 ,7
+1517,Cascade 400ml, 1.00 ,16
+1518,Double Thick Milkshake, 4.00 ,16
+1519,Delta 300ml Bottled, 1.00 ,16
+1520,Delta 350ml Pet, 1.00 ,16
+1521,Black Coffee, 1.00 ,1
+1522,Egg Sandwich, 1.00 ,8
+1523,Mint Milkshake Flavour, 0.00   ,7
+1526,Strawberry Milkshake Flavour, 0.00   ,7
+1527,Banana Milkshake Flavour, 0.00   ,7
+1528,Chocolate Milkshake Flavour, 0.00   ,7
+1529,Bublegum Milkshake Flavour, 0.00   ,7
+1530,Oreo Milkshake Flavour, 0.00   ,7
+1531,Lime Milkshake Flavour, 0.00   ,7
+1532,Cherry Milkshake Flavour, 0.00   ,7
+1533,Barone Milkshake Flavour, 0.00   ,7
+1534,Coffee Milkshake Flavour, 0.00   ,7
+1535,Vanilla Milkshake Flavour, 0.00   ,7
+1536,Tropika 200ml, 1.00 ,16
+1537,Krush 100% UHT 200ml, 1.00 ,16
+1538,Krush 100% UHT 1Litre, 3.00 ,16
+1539,Pepsi Can 440ml, 1.00 ,16
+1540,Cascade 1Litre, 2.00 ,16
+1541,Tropika Eazy Assorted 1Litre, 3.00 ,16
+1542,Daima Fruit Juice, 1.50 ,16
+1543,Krush Cranberry 1Litre, 3.50 ,16
+1600,2 Piece Grilled Chicken Chips, 3.00 ,1
+1601,2 Spicy Wings and Chips, 0.00   ,1
+3000,Meal Box Packaging, 0.00   ,30
+3002,Quarter pack, 0.00   ,30
+3003,Coffee Cups, 0.00   ,30
+3004,Burger Box, 0.00   ,30
+3005,Staff Queen Meal, 0.00   ,30
+3006,Salad Tub, 0.00   ,30
+3007,Chip Scoop, 0.00   ,30
+3008,Half Pack, 0.00   ,30
+3009,Spicy Njano Rice, 2.00 ,1
+3010,Livers, 2.50 ,7
+3011,Greek Salad, 3.00 ,12
+3012,Chicken Salad, 4.00 ,12
+3013,3 Bean Salad, 2.00 ,12
+3014,Garlic Mash, 2.00 ,7
+3015,Empty Oil Buckets, 1.00 ,7
+4002,Discounted Sadza and Beef, 2.65 ,1
+4003,Discounted Sadza and 1Piece Kale, 2.65 ,1
+4004,Beef and Chips, 3.00 ,1
+4005,Pepsi Can 400ml, 0.75 ,16
+4006,"Ugali, Mixed Beef and Veg", 2.00 ,1
+4007,Prom 1, 0.00   ,8
+4008,Prom 2, 0.00   ,1

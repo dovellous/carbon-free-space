@@ -1,0 +1,452 @@
+
+.my-items {
+  padding: 0 30px;
+  .item-list-title {
+    padding-bottom: 15px;
+    border-bottom: 2px solid $color_gallery;
+    p {
+      color: $color_gray;
+      font-weight: 500;
+      font-family: $primary_font, $primary_font_fallback;
+    }
+  }
+  .single-item-list {
+    padding: 20px 0;
+    border-bottom: 1px solid $color_gallery;
+    .content {
+      position: relative;
+      top: -6px;
+    }
+    .item-image {
+      position: relative;
+      padding-left: 80px;
+      img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 60px;
+        width: 60px;
+        //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+        border-radius: 3px;
+      }
+      .price {
+        font-size: 14px;
+        color: $color_gray;
+        display: block;
+        margin-top: 3px;
+      }
+      .title a {
+        font-size: 15px;
+        font-weight: 400;
+        color: $color_gray;
+        &:hover {
+          color: $color_purple_heart;
+        }
+      }
+    }
+    p {
+      color: $color_gray;
+      font-family: $primary_font, $primary_font_fallback;
+    }
+    .action-btn li {
+      display: inline-block;
+      margin-right: 8px;
+      &:last-child {
+        margin: 0;
+      }
+      a {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        border: 1px solid $color_gallery;
+        //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+        border-radius: 50%;
+        color: $color_gray;
+        text-align: center;
+        display: block;
+        &:hover {
+          color: $white;
+          background: $color_purple_heart;
+          border-color: transparent;
+        }
+      }
+    }
+  }
+}
+.item-details {
+  background-color: $color_alabaster;
+  .top-area {
+    background-color: $white;
+    padding: 30px;
+    border: 1px solid $color_gallery;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 6px;
+  }
+  .product-images {
+    img {
+      width: 100%;
+      cursor: pointer;
+    }
+    .images {
+      display: -ms-grid;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 1em 1em;
+      margin-top: 1em;
+    }
+    .fade-in {
+      -webkit-animation: fadeIn .5s ease-in 1 forwards;
+      animation: fadeIn .5s ease-in 1 forwards;
+    }
+  }
+  .product-info {
+    padding-left: 40px;
+    .title {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    .location {
+      display: block;
+      margin-bottom: 20px;
+      i {
+        display: inline-block;
+        margin-right: 5px;
+        color: $color_purple_heart;
+      }
+      a {
+        color: $color_gray;
+        &:hover {
+          color: $color_purple_heart;
+        }
+      }
+    }
+    .price {
+      color: $color_purple_heart;
+      display: block;
+    }
+    .list-info {
+      border-top: 1px solid $color_gallery;
+      margin-top: 30px;
+      padding-top: 30px;
+      h4 {
+        font-size: 20px;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 15px;
+      }
+      ul li {
+        display: block;
+        margin-bottom: 6px;
+        &:last-child {
+          margin: 0;
+        }
+        span {
+          display: inline-block;
+          font-weight: 500;
+          min-width: 100px;
+        }
+      }
+    }
+    .contact-info {
+      margin-top: 30px;
+      ul li {
+        display: inline-block;
+        margin-right: 10px;
+        &:last-child {
+          margin: 0;
+        }
+        .call {
+          position: relative;
+          padding: 15px 40px;
+          padding-left: 80px;
+          color: $white;
+          background-color: $color_purple_heart;
+          //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+          border-radius: 4px;
+          font-size: 16px;
+          font-weight: 500;
+          float: left;
+          &:hover {
+            color: $white;
+            background-color: $color_black_pearl;
+          }
+          span {
+            font-size: 14px;
+            display: block;
+            margin-top: 2px;
+            font-weight: 400;
+          }
+          i {
+            color: $white;
+            position: absolute;
+            left: 30px;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+            transform: translateY(-50%);
+            font-size: 30px;
+          }
+        }
+        .mail {
+          padding: 14px 30px;
+          color: $color_purple_heart;
+          background-color: $white;
+          border: 2px solid $color_gallery;
+          //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+          border-radius: 4px;
+          font-size: 30px;
+          float: left;
+          &:hover {
+            background-color: $color_purple_heart;
+            color: $white;
+            border-color: transparent;
+          }
+        }
+      }
+    }
+    .social-share {
+      display: block;
+      margin-top: 35px;
+      h4 {
+        font-size: 16px;
+        font-weight: 500;
+        color: $color_gray;
+        display: inline-block;
+        margin-right: 15px;
+      }
+      ul {
+        display: inline-block;
+        li {
+          display: inline-block;
+          margin-right: 5px;
+          &:last-child {
+            margin-right: 0;
+          }
+          a {
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            display: block;
+            //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+            border-radius: 50%;
+            border: 1px solid $color_gallery;
+            background-color: $white;
+            color: $color_purple_heart;
+            line-height: 40px;
+            font-size: 14px;
+            &.facebook {
+              color: $color_azure;
+              &:hover {
+                border-color: transparent;
+                background-color: $color_azure;
+                color: $white;
+              }
+            }
+            &.twitter {
+              color: $color_picton_blue;
+              &:hover {
+                border-color: transparent;
+                background-color: $color_picton_blue;
+                color: $white;
+              }
+            }
+            &.google {
+              color: $color_punch;
+              &:hover {
+                border-color: transparent;
+                background-color: $color_punch;
+                color: $white;
+              }
+            }
+            &.linkedin {
+              color: $color_deep_cerulean;
+              &:hover {
+                border-color: transparent;
+                background-color: $color_deep_cerulean;
+                color: $white;
+              }
+            }
+            &.pinterest {
+              color: $color_monza;
+              &:hover {
+                border-color: transparent;
+                background-color: $color_monza;
+                color: $white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.item-details-blocks .single-block {
+  background-color: $white;
+  padding: 30px;
+  border: 1px solid $color_gallery;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 6px;
+  margin-top: 30px;
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  &.description {
+    p {
+      margin: 15px 0;
+      font-size: 16px;
+    }
+    ul {
+      display: block;
+      margin: 30px 0;
+      li {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 15px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  &.tags ul li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    a {
+      padding: 8px 15px;
+      border: 1px solid $color_gallery;
+      color: $color_gray;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      border-radius: 4px;
+      &:hover {
+        color: $color_purple_heart;
+        border-color: $color_purple_heart;
+      }
+    }
+  }
+  &.comments .single-comment {
+    position: relative;
+    padding-left: 110px;
+    margin-top: 40px;
+    img {
+      height: 80px;
+      width: 80px;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      border-radius: 50%;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    h4 {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 2px;
+    }
+    span {
+      display: block;
+      margin-bottom: 25px;
+    }
+    p {
+      font-size: 16px;
+    }
+    .reply {
+      padding: 8px 15px;
+      border: 1px solid $color_gallery;
+      color: $color_gray;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      border-radius: 4px;
+      margin-top: 20px;
+      font-size: 14px;
+      font-weight: 500;
+      i {
+        display: inline-block;
+        margin-right: 2px;
+      }
+      &:hover {
+        color: $color_purple_heart;
+        border-color: $color_purple_heart;
+      }
+    }
+  }
+}
+.item-details-sidebar .single-block {
+  &.author {
+    position: relative;
+    img {
+      height: 50px;
+      width: 50px;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      border-radius: 50%;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .content {
+      position: relative;
+      padding-left: 70px;
+      h4 {
+        font-size: 16px;
+        font-weight: 500;
+      }
+      span {
+        font-size: 14px;
+        color: $color_gray;
+        margin-top: 4px;
+        display: block;
+      }
+      .see-all {
+        font-size: 15px;
+        margin-top: 20px;
+        color: $color_purple_heart;
+        &:hover {
+          color: $color_black_pearl;
+        }
+      }
+    }
+  }
+  &.contant-seller {
+    .form-control-custom {
+      margin-bottom: 15px;
+      height: 50px;
+      &:-ms-input-placeholder {
+        color: $color_black_pearl;
+        padding: 0!important;
+      }
+    }
+    .form-control-custom::-webkit-input-placeholder {
+      color: $color_black_pearl;
+      padding: 0!important;
+    }
+    .form-control-custom::-ms-input-placeholder {
+      color: $color_black_pearl;
+      padding: 0!important;
+    }
+    .form-control-custom::placeholder {
+      color: $color_black_pearl;
+      padding: 0!important;
+    }
+    .form-box textarea {
+      &.form-control-custom {
+        height: 150px;
+        &:-ms-input-placeholder {
+          color: $color_black_pearl;
+          padding: 0!important;
+        }
+      }
+      &.form-control-custom::-webkit-input-placeholder {
+        color: $color_black_pearl;
+        padding: 0!important;
+      }
+      &.form-control-custom::-ms-input-placeholder {
+        color: $color_black_pearl;
+        padding: 0!important;
+      }
+      &.form-control-custom::placeholder {
+        color: $color_black_pearl;
+        padding: 0!important;
+      }
+    }
+  }
+}
